@@ -17,20 +17,20 @@ line-height: 1.2;
 .title-main{
  font-size: 5.4375rem;   
 }
-.comm-main, .header-biogr, .header-disign,
-.title-testimon, .points  {
+.subtitle-main, .header-biography, .header-disign,
+.title-testimonials, .points  {
     font-weight: 700;
     font-size: 1.125rem;
 }
-.title-biogr{
+.title-biography{
    font-size: 5.4375rem; 
    font-weight:400;
 }
-.para-biogr{
+.paragraph-biography{
     font-size: 1.125rem ;
     font-weight: 500;
 }
-.blockqout-biogr{
+.blockqout-biography{
     font-size: 2rem;
 }
 .author-title{
@@ -40,7 +40,7 @@ line-height: 1.2;
 .author-text, .web, .address-cite{
     font-weight: 700;
 }
-.testim-blockquot{
+.testimonials-blockquot{
     font: size 2rem;
 }
 .title-points{
