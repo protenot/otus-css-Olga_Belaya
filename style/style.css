@@ -4,16 +4,17 @@
     local("Butler");
     font-weight:400;   
 }
+@font-face{
+    font-family:"Butler";
+    src:url("/fonts/Butler_Light.woff2"),
+    local("Butler");
+    font-weight:300;   
+}
 html{
     font-size: 16px;
     line-height: 1.2;
 }
-/*.font-butler{
- font-family: "Butler", serif;   
-}
-.font-roboto{
-    font-family: "Roboto",sans-serif;
-}*/
+
 .title-main{
     font-family: "Butler", serif; 
     font-size: 5.4375rem;   
