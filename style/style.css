@@ -1,52 +1,89 @@
 @font-face{
-font-family:"Butler";
-src:url("/fonts/Butler_Regular.woff2"),
-local("Butler");
-font-weight:400;   
+    font-family:"Butler";
+    src:url("/fonts/Butler_Regular.woff2"),
+    local("Butler");
+    font-weight:400;   
 }
 html{
-font-size: 16px;
-line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.2;
 }
-.font-butler{
+/*.font-butler{
  font-family: "Butler", serif;   
 }
 .font-roboto{
     font-family: "Roboto",sans-serif;
-}
+}*/
 .title-main{
- font-size: 5.4375rem;   
+    font-family: "Butler", serif; 
+    font-size: 5.4375rem;   
 }
-.subtitle-main, .header-biography, .header-disign,
-.title-testimonials, .points  {
+.subtitle-main{
+    font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
 }
-.title-biography{
-   font-size: 5.4375rem; 
-   font-weight:400;
-}
-.paragraph-biography{
+ .header-biography{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+ }
+ .title-biography{
+    font-family: "Butler", serif;
+    font-size: 5.4375rem; 
+    font-weight:400;
+ } 
+ .paragraph-biography{
+    font-family: "Roboto",sans-serif;
     font-size: 1.125rem ;
     font-weight: 500;
 }
-.blockqout-biography{
+.blockqoute-biography{
+    font-family: "Butler", serif;
     font-size: 2rem;
 }
+ .header-disign{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+ }
+
 .author-title{
+    font-family: "Roboto",sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
-.author-text, .web, .address-cite{
+.author-text{
+    font-family: "Roboto",sans-serif;
     font-weight: 700;
 }
-.testimonials-blockquot{
+.title-testimonials {
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+ .web{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+}
+.testimonials-blockquote{
+    font-family: "Butler", serif;
     font: size 2rem;
 }
+.points  {
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
 .title-points{
+    font-family: "Butler", serif;
     font-size: 5.75rem;
 }
 .list-points{
-  font-size: 2.125rem; 
- 
-}
+    font-family: "Butler", serif;
+    font-size: 2.125rem; 
+   
+  }
+
+
