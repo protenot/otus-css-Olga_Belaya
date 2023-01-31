@@ -14,15 +14,41 @@ html{
     font-size: 16px;
     line-height: 1.2;
 }
-
+*{margin: 0;}
+.header-main{
+    position: relative;
+    
+}
+.header-image{
+    width: 100%;
+}
+.title-div{
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    
+    box-sizing: border-box;
+    width: 52%;
+    height: 56%;
+    top:25%;
+    left:25%;
+   
+    
+   
+}
 .title-main{
+    
     font-family: "Butler", serif; 
-    font-size: 5.4375rem;   
+    font-size: 5.4375rem; 
+    padding-top:8.125rem ; 
+    padding-bottom: 1.125rem; 
 }
 .subtitle-main{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
+   /* margin-bottom: 10px;*/
+   padding-bottom: 5.625rem;
 }
  .header-biography{
     font-family: "Roboto",sans-serif;
