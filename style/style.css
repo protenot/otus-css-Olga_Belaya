@@ -22,11 +22,14 @@ html{
 }
 .hero{
     position: relative;
-   
+    width: 100%;
+    
 }
 
 .hero-image{
-    width: 100%;
+    width: 1065px;
+    display: block;
+    margin: 0 auto;
 }
 .title-block{
     background-color: white;
