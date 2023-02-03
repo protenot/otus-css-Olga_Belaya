@@ -14,12 +14,18 @@ html{
     font-size: 16px;
     line-height: 1.2;
 }
-*{margin: 0;}
-.header-main{
-    position: relative;
-    
+*{margin: 0;
 }
-.header-image{
+.header-button{
+    position: relative;
+    left:50%;
+}
+.hero{
+    position: relative;
+   
+}
+
+.hero-image{
     width: 100%;
 }
 .title-div{
