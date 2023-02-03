@@ -23,25 +23,31 @@ html{
 .hero{
     position: relative;
     width: 100%;
-    
+   
+
 }
 
 .hero-image{
     width: 1065px;
     display: block;
     margin: 0 auto;
+   
 }
+
 .title-block{
     background-color: white;
     text-align: center;
     position: absolute;
     
+    /*transform:translate(50% -50%);*/
+   
     box-sizing: border-box;
     width: 52%;
-    height: 56%;
     top:20%;
     left:25%;
     
+    padding-top:8.125rem ;
+    padding-bottom: 5.625rem;
     
    
 }
@@ -49,15 +55,15 @@ html{
     
     font-family: "Butler", serif; 
     font-size: 5.4375rem; 
-    padding-top:8.125rem ; 
+  
     padding-bottom: 1.125rem; 
 }
 .subtitle-main{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
-   /* margin-bottom: 10px;*/
-   padding-bottom: 5.625rem;
+   
+   
 }
  .header-biography{
     font-family: "Roboto",sans-serif;
