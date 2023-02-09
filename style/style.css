@@ -28,7 +28,7 @@ html{
 }
 
 .hero-image{
-    width: 1065px;
+    width: 80%;
     display: block;
     margin: 0 auto;
    
@@ -62,27 +62,65 @@ html{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
-   
-   
+    
 }
+.biography{
+    display: flex;
+   
+    position:relative;
+    width: 100%;
+    align-items: stretch;
+    gap:13.8%;
+    justify-content: space-around;
+}
+
  .header-biography{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    transform: rotate(270deg);
+    width: 6.8125rem;
+    margin-bottom:10.56rem ;
+ }
+ 
+
+ .biography-image{
+    width:51.9%;
+    margin-top: 8.4375rem;
+    margin-left:8.375rem;
+    margin-bottom: 10.56rem;
+    /*margin-right:9.1875rem;*/
+    max-width: 1000px;
  }
  .title-biography{
     font-family: "Butler", serif;
     font-size: 5.4375rem; 
     font-weight:400;
+    margin-top: 26.8875rem;
  } 
  .paragraph-biography{
     font-family: "Roboto",sans-serif;
     font-size: 1.125rem ;
     font-weight: 500;
+    margin-bottom:0;
+
+}
+.divider{
+    width:14px;
+    height:4px;
+    background-color: black;
+    margin-bottom: 1.9375rem;
+}
+.second-line{
+    margin-bottom: 2.9375rem;
 }
 .blockqoute-biography{
     font-family: "Butler", serif;
     font-size: 2rem;
+    width: 415px;
 }
  .header-disign{
     font-family: "Roboto",sans-serif;
