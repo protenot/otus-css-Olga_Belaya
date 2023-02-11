@@ -21,20 +21,32 @@ html{
     left:50%;
 }
 .hero{
-    position: relative;
+    
     width: 100%;
+    background-color: pink;
    
 
 }
 
-.hero-image{
+.hero-block{
+    position: relative;
     width: 80%;
+   /* max-width: 100%;*/
     display: block;
     margin: 0 auto;
+   /* margin-left: 14.04%;*/
+   text-align: center;
    
+}
+.hero-image{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
 }
 
 .title-block{
+    width: 52%;
     background-color: white;
     text-align: center;
     position: absolute;
@@ -42,8 +54,10 @@ html{
    transform:translate(50%, -50%);
    
     box-sizing: border-box;
-    width: 52%;
+    
     top:50%;
+    margin: 0 auto;
+
    
     
     padding-top:8.125rem ;
@@ -68,9 +82,11 @@ html{
     display: flex;
    
     position:relative;
-    width: 100%;
-    align-items: stretch;
-    gap:13.8%;
+    width: 95%;
+    background-color: beige;
+    height: auto; 
+    align-content: stretch;
+    /* gap:20%;*/
     justify-content: space-around;
 }
 
@@ -79,40 +95,57 @@ html{
     font-weight: 700;
     font-size: 1.125rem;
     position:absolute;
-    bottom:10px;
-    right:10px;
+    bottom:3%;
+    right:1%;
     transform: rotate(270deg);
-    width: 6.8125rem;
-    margin-bottom:10.56rem ;
+   
+  
  }
  
 
  .biography-image{
-    width:51.9%;
-    margin-top: 8.4375rem;
-    margin-left:8.375rem;
-    margin-bottom: 10.56rem;
-    /*margin-right:9.1875rem;*/
+    width: 32%;
+    margin-top: 12%;
+    margin-left:4.5%;
+    margin-bottom: 6%;
+   /*margin-right: 5%;*/
     max-width: 1000px;
+    flex-basis: 100%;
  }
+ .biography-block{
+    /* height:1500px;*/
+      
+   
+       /*justify-content: space-around;*/
+   
+    }
  .title-biography{
     font-family: "Butler", serif;
     font-size: 5.4375rem; 
     font-weight:400;
-    margin-top: 26.8875rem;
+    margin-top: 51%;
+    margin-left: 25%;
+    padding-left: 00;
+    margin-bottom:7%;
  } 
+ 
  .paragraph-biography{
     font-family: "Roboto",sans-serif;
     font-size: 1.125rem ;
     font-weight: 500;
     margin-bottom:0;
-
+    margin-left: 25%;
+    ;
+    
 }
 .divider{
     width:14px;
     height:4px;
     background-color: black;
-    margin-bottom: 1.9375rem;
+ /*  margin-top: 5%;*/
+    margin-bottom: 5%;
+    margin-left: 25%;
+   
 }
 .second-line{
     margin-bottom: 2.9375rem;
@@ -120,9 +153,11 @@ html{
 .blockqoute-biography{
     font-family: "Butler", serif;
     font-size: 2rem;
-    width: 415px;
+    margin-left: 20%;
+    /*width: 415px;*/
+    
 }
- .header-disign{
+ .header-design{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
