@@ -13,7 +13,7 @@
 html{
     font-size: 16px;
     line-height: 1.2;
-    width: 1440px;
+    width: 100%;
 }
 *{margin: 0;
 }
@@ -21,10 +21,15 @@ html{
     position: relative;
     left:50%;
 }
+main{
+    width:1440px;
+    margin: 0 auto;
+}
 .hero{
     
     width: 100%;
     background-color: pink;
+    max-width: 1440px;
    
 
 }
@@ -32,7 +37,7 @@ html{
 .hero-block{
     position: relative;
     width: 80%;
-   /* max-width: 100%;*/
+    max-width: 1440px;
     display: block;
     margin: 0 auto;
    /* margin-left: 14.04%;*/
@@ -42,7 +47,8 @@ html{
 .hero-image{
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 1065px;
+    max-width: 1440px;
 
 }
 
@@ -63,7 +69,7 @@ html{
     
     padding-top:8.125rem ;
     padding-bottom: 5.625rem;
-    
+    max-width: 749px;
    
 }
 .title-main{
@@ -84,6 +90,7 @@ html{
    
     position:relative;
     width: 95%;
+    max-width: 1440px;
     background-color: beige;
     height: auto; 
     align-content: stretch;
