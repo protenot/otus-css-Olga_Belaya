@@ -161,14 +161,44 @@ main{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
 }
+.testimonials{
+    position: relative;
+    display: grid;
+    grid-template-columns: 12% 2fr 1fr;
+   
+}
 .title-testimonials {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
+    position: absolute;
+    top:-10%;
+    box-sizing: border-box;
+   
+}
+.web-line{
+    
+    
+    /*gap: %;*/
+    background-color: aqua;
+    
 }
  .web{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: wheat;
+    
+}
+.web-item{
+    transform: rotate(270deg);
+    
+}
+address-cite"{
+    display: block;
+    /*box-sizing:border-box;*/
 }
 .testimonials-blockquote{
     font-family: "Butler", serif;
@@ -191,3 +221,6 @@ main{
   }
 
 
+.title-testimonials{
+   
+}
