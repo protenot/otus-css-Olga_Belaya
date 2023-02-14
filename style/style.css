@@ -185,7 +185,7 @@ main{
     flex-direction: column;
     justify-content: space-around;
     background-color: wheat;
-    /*gap:1%;*/
+    
     
 }
 .web-item{
@@ -244,6 +244,4 @@ address-cite{
   }
 
 
-.title-testimonials{
-   
-}
+
