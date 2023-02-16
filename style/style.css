@@ -159,6 +159,7 @@ align-items: flex-end;
 margin-bottom:10%;
 
 
+
  }
 
  .design-item{
@@ -167,7 +168,7 @@ margin-bottom:10%;
 }
 .huge{
  padding-left:-10%;
-
+ margin-left:-3%;
 
 }
 .author-title{
