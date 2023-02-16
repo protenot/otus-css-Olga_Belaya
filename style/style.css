@@ -93,7 +93,7 @@ main{
     background-color: beige;     
     justify-content: space-around;
     gap:11%;
-    margin-bottom:12%;
+    margin-bottom:11.8%;
 }
 
  .header-biography{
@@ -102,7 +102,7 @@ main{
     font-size: 1.125rem;
     position:absolute;
     bottom:3%;
-    right: -7.5%;
+    right: -8.3%;
     transform: rotate(270deg);
    
   
@@ -111,9 +111,8 @@ main{
 
  .biography-image{
     width: 553px;
-    margin-top: 10%;
-    margin-left:10%;
-    margin-bottom: 0%;
+    margin-top: 10.2%;
+    margin-left:10.3%;
     max-width: 100%;
     flex-basis: 100%;
  }
@@ -122,9 +121,10 @@ main{
     font-family: "Butler", serif;
     font-size: 5.4375rem; 
     font-weight:400;
-    margin-top: 68%;
-    margin-bottom:9.8%;
+    margin-top: 68.55%;
+    margin-bottom:10.5%;
     line-height: 1.19;
+    margin-left: 1%;
  } 
  
  .paragraph-biography{
@@ -132,6 +132,7 @@ main{
     font-size: 1.125rem ;
     font-weight: 500;
     line-height: 0.7;
+    margin-left: 1%;
   
     
     
@@ -141,6 +142,7 @@ main{
     height:4px;
     background-color: black;    
     margin-bottom: 3.5%;
+    margin-left: 1%;
    
    
 }
@@ -151,6 +153,7 @@ main{
     font-family: "Butler", serif;
     font-size: 2rem;
     line-height: 1.21;
+    margin-left: -5%;
     
 }
 
@@ -166,8 +169,8 @@ main{
     font-size: 1.125rem;
     position: absolute;
    
-    top: 1.9%;
-    right: 26.5%;
+    top: 1.4%;
+    right: 26%;
     transform: rotate(270deg);
  }
  .design-list{
@@ -187,23 +190,23 @@ overflow: auto;
  }
 
  .design-item{
-    /*
-    margin-left:2px;*/
-    padding-top: 0;
-    line-height: 0.9;
+    
+  
+    line-height: 0.7;
 
 
 }
 .image-author-clein{
     width:309px;
+    margin-bottom:2%;
 }
 .image-author-red{
     width:312px; 
-   /* margin-right: 10%; */
+    margin-bottom:2%;
 }
 .huge{
  padding-left:-10%;
- margin-left:-3%;
+ margin-left:-2.8%;
  margin-right:auto;
  width:609px;
  
@@ -214,7 +217,8 @@ overflow: auto;
 .author-wonder{
     text-align:start; 
     margin-left:30%;
-    line-height: 0.9;
+    line-height: 0.7;
+    padding-top: 0.9%;
 
 }
 .author-title{
@@ -222,7 +226,9 @@ overflow: auto;
     font-weight: 700;
     text-transform: uppercase;
     font-size:16px;
-    align-items:center; 
+    margin-bottom: 1%;
+    
+    
 }
 .author-text{
     font-family: "Roboto",sans-serif;
