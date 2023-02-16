@@ -159,7 +159,7 @@ main{
 
 .design{
     position:relative;
-    margin-bottom: 20.25% ;
+    margin-bottom: 21.5% ;
 
 }
 
@@ -245,19 +245,23 @@ overflow: auto;
     font-weight: 700;
     font-size: 1.125rem;
     position: absolute;
-    top:-10%;
+    top:-10.8%;
     box-sizing: border-box;
-    left:12%;
+    left:12.5%;
    
 }
 
  .web{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: wheat;
+    margin-right: 0;
+    padding-top: 40%;
+    
     
     
     
@@ -268,6 +272,8 @@ a{
 .web-item{
     transform: rotate(270deg);
     list-style-type:none;
+    background-color: aquamarine;
+    padding-top: 18%;
     
    
     
@@ -276,9 +282,15 @@ a{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
+    font-size: 16px;
+    margin-bottom: 0;
+   
+
 
 }
-
+.wwww{
+    padding-top: ;
+}
 }
 .address-cite{
     display: block;
