@@ -158,8 +158,8 @@ main{
     font-size: 1.125rem;
     position: absolute;
    
-    bottom:3%;
-    right: 7.5%;
+    top: 1.9%;
+    right: 26.5%;
     transform: rotate(270deg);
  }
  .design-list{
@@ -180,6 +180,7 @@ background-color:aqua ;
  .design-item{
     /*
     margin-left:2px;*/
+    padding-top: 0;
 
 
 }
@@ -195,14 +196,22 @@ background-color:aqua ;
  margin-left:-3%;
  margin-right:auto;
  width:609px;
+ 
 }
 .last{
     margin-right: 5.1%;
+}
+.author-wonder{
+    text-align:start; 
+    margin-left:45%;
+
 }
 .author-title{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+    font-size:16px;
+    align-items:center; 
 }
 .author-text{
     font-family: "Roboto",sans-serif;
