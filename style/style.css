@@ -86,7 +86,7 @@ main{
     background-color: beige;     
     justify-content: space-around;
     gap:11%;
-    margin-bottom:9%;
+    margin-bottom:12%;
 }
 
  .header-biography{
@@ -144,33 +144,47 @@ main{
     font-family: "Butler", serif;
     font-size: 2rem;
     line-height: 1.21;
-   
-
     
 }
+
+.design{
+    position:relative;
+
+}
+
  .header-design{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
+    position: absolute;
+   
+    bottom:3%;
+    right: 7.5%;
+    transform: rotate(270deg);
  }
  .design-list{
 display: flex;
 justify-content: space-between;
 align-items: flex-end;
 margin-bottom:10%;
+gap:2%;
+
 
 
 
  }
 
  .design-item{
+    /*
+    margin-left:2px;*/
 
 
 }
 .huge{
  padding-left:-10%;
  margin-left:-3%;
-
+ margin-right:auto;
+ width:609px;
 }
 .author-title{
     font-family: "Roboto",sans-serif;
