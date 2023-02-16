@@ -17,9 +17,10 @@ html{
 }
 *{margin: 0;
 }
-.header-button{
+.header-name{
     position: relative;
-    left:50%;
+    display: flex;
+    justify-content: center;
 }
 main{
     width:1440px;
@@ -31,7 +32,7 @@ main{
     width: 100%;
     background-color: pink;
     max-width: 1440px;
-   
+    margin-top: 5%;   
 
 }
 
@@ -149,6 +150,7 @@ main{
 
 .design{
     position:relative;
+    margin-bottom: 20.25% ;
 
 }
 
@@ -170,6 +172,7 @@ margin-bottom:10%;
 gap:2%;
 width: 100%;
 background-color:aqua ;
+overflow: auto;
 /*margin-right: 10%;*/
 
 
