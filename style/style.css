@@ -152,7 +152,15 @@ main{
     font-weight: 700;
     font-size: 1.125rem;
  }
+ .design-list{
+display: flex;
 
+ }
+
+ .design-item{
+
+
+}
 .author-title{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
