@@ -168,6 +168,9 @@ justify-content: space-between;
 align-items: flex-end;
 margin-bottom:10%;
 gap:2%;
+width: 100%;
+background-color:aqua ;
+/*margin-right: 10%;*/
 
 
 
@@ -180,11 +183,21 @@ gap:2%;
 
 
 }
+.image-author-clein{
+    width:309px;
+}
+.image-author-red{
+    width:312px; 
+   /* margin-right: 10%; */
+}
 .huge{
  padding-left:-10%;
  margin-left:-3%;
  margin-right:auto;
  width:609px;
+}
+.last{
+    margin-right: 5.1%;
 }
 .author-title{
     font-family: "Roboto",sans-serif;
