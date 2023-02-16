@@ -86,6 +86,7 @@ main{
     background-color: beige;     
     justify-content: space-around;
     gap:11%;
+    margin-bottom:9%;
 }
 
  .header-biography{
