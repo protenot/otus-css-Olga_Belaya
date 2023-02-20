@@ -181,8 +181,9 @@ margin-bottom:10%;
 gap:2%;
 width: 100%;
 background-color:aqua ;
-overflow: auto;
-/*margin-right: 10%;*/
+overflow-x: auto;
+list-style: none;
+
 
 
 
@@ -243,10 +244,10 @@ overflow: auto;
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
-    
-   /* top:-10.8%;*/
     box-sizing: border-box;
-   /* left:12.5%;*/
+    margin-left: 12.5%;
+    margin-bottom:3%;
+
    
 }
 .testimonials-block-main{
@@ -314,15 +315,15 @@ margin-left:1%;
 
 }
 .testimonials-blockquote{
-    width: 59%;
+    width: 206px;
     font-family: "Butler", serif;
     font-size: 2rem;
-    background-color: aqua; 
-    padding-left: 2.5%;
-    margin-top: -3%;
     line-height: 1.2;
-    padding-right: 0%;
     text-align: center;
+    margin: -0.5% 0 7% 1.5%;
+    padding: 0;
+    letter-spacing:-1.1px;
+
 }
 .img-blockquote{
     width: 221px;
