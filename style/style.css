@@ -174,27 +174,21 @@ main{
     transform: rotate(270deg);
  }
  .design-list{
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-margin-bottom:10%;
-gap:2%;
-width: 100%;
-background-color:aqua ;
-overflow-x: auto;
-list-style: none;
-
-
-
-
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom:10%;
+    gap:2%;
+    width: 100%;
+    background-color:aqua ;
+    overflow-x: auto;
+    list-style: none;
 
  }
 
  .design-item{
-    
   
     line-height: 0.7;
-
 
 }
 .image-author-clein{
@@ -234,12 +228,11 @@ list-style: none;
 .author-text{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
+    letter-spacing:0.8px;
+
 }
-.testimonials{
-    
-    
-   
-}
+
+
 .title-testimonials {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
@@ -258,15 +251,11 @@ list-style: none;
  .web{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 0;
     padding-top: 40%;
-    
-    
-    
     
 }
 a{
@@ -277,13 +266,10 @@ a{
     list-style-type:none;
     padding-top: 18%;
     
-   
-    
 }
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
     font-weight: 700;
-    
     font-size: 16px;
     margin-bottom: 0;
     
