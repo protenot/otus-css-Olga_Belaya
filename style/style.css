@@ -10,13 +10,14 @@
     local("Butler");
     font-weight:300;   
 }
+*{margin: 0;
+}
 html{
     font-size: 16px;
     line-height: 1.2;
     width: 100%;
 }
-*{margin: 0;
-}
+
 .header-button{
     position: relative;
     left:50%;
@@ -163,20 +164,25 @@ main{
     font-weight: 700;
 }
 .testimonials{
-    position: relative;
-    display: grid;
-    grid-template-columns: 12% 1.8fr 1fr;
-    grid-template-rows: 1005;
+    /*position: relative;*/
+    
 }
+
 .title-testimonials {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
-    position: absolute;
-    top:-10%;
+    /*position: absolute;*/
+   /* top:-10%;*/
     box-sizing: border-box;
-    left:12%;
+    /*left:12%;*/
    
+}
+.testimonials-block-main{
+    display: grid;
+    grid-template-columns: 12% 1.8fr 1fr;
+    /*grid-template-rows: 1005;*/
+    
 }
 
  .web{
