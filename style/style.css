@@ -212,7 +212,7 @@ list-style: none;
  width:609px;
  
 }
-.last{
+.design-item:last-child{
     margin-right: 5.1%;
 }
 .author-wonder{
