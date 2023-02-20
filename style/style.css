@@ -187,7 +187,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gitmargin-right: 0;
+    margin-right: 0;
     padding-top: 40%;
 
     
