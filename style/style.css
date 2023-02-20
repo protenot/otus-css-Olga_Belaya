@@ -176,6 +176,8 @@ main{
    /* top:-10%;*/
     box-sizing: border-box;
     /*left:12%;*/
+    margin-left: 12.5%;
+    margin-bottom:3%;
    
 }
 .testimonials-block-main{
@@ -192,6 +194,9 @@ main{
     flex-direction: column;
     justify-content: space-around;
     background-color: wheat;
+    margin-right: 0;
+    padding-top: 40%;
+
     
     
     
@@ -202,6 +207,7 @@ a{
 .web-item{
     transform: rotate(270deg);
     list-style-type:none;
+    padding-top: 18%;
     
    
     
@@ -209,7 +215,8 @@ a{
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
     font-weight: 700;
-    font-size: 1.125rem;
+    font-size: 16px;
+    margin-bottom: 0;
 
 }
 
@@ -221,6 +228,10 @@ a{
     color:black;
     text-decoration: none;
 }
+
+.web-image{
+    margin-left:1%;
+}    
 .testimonials-block{
     display: flex;
     flex-direction: column;
@@ -230,10 +241,15 @@ a{
 
 }
 .testimonials-blockquote{
-    width: 67%;
+    width: 56%;
     font-family: "Butler", serif;
     font-size: 2rem;
-   
+    padding-left: 2.5%;
+    margin-top: -3%;
+    line-height: 1.2;
+    padding-right: 0%;
+    text-align: center;
+
     
 }
 .img-blockquote{
