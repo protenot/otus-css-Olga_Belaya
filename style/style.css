@@ -340,6 +340,10 @@ position: relative;
     margin-left: 56.5%;
    
 }
+.navigation-main{
+    display: flex;
+    background-color: bisque;
+}
 .list-points{
     font-family: "Butler", serif;
     font-size: 2.125rem; 
