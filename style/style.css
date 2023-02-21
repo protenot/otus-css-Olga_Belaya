@@ -10,13 +10,17 @@
     local("Butler");
     font-weight:300;   
 }
+*{
+    margin: 0;
+    box-sizing:border-box;   
+}
+
 html{
     font-size: 16px;
     line-height: 1.2;
     width: 100%;
 }
-*{margin: 0;
-}
+
 .header-name{
     position: relative;
     display: flex;
@@ -66,7 +70,7 @@ main{
     left:-1.6%;
     margin: 0 auto;
     padding-top: 10%;
-    padding-bottom:;
+
     max-width: 749px;
    
 }
@@ -277,13 +281,10 @@ a{
 
 
 }
-.wwww{
-    padding-top: ;
-}
-}
+
 .address-cite{
     display: block;
-    /*box-sizing:border-box;*/
+  
     text-align:  start;
     color:black;
     text-decoration: none;
