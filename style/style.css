@@ -10,13 +10,14 @@
     local("Butler");
     font-weight:300;   
 }
+*{margin: 0;
+}
 html{
     font-size: 16px;
     line-height: 1.2;
     width: 100%;
 }
-*{margin: 0;
-}
+
 .header-button{
     position: relative;
     left:50%;
@@ -24,6 +25,7 @@ html{
 main{
     width:1440px;
     margin: 0 auto;
+    
 }
 .hero{
     
@@ -161,18 +163,90 @@ main{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
 }
+
+
 .title-testimonials {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
+    box-sizing: border-box;
+    margin-left: 12.5%;
+    margin-bottom:3%;
+   
 }
+.testimonials-block-main{
+    display: grid;
+    grid-template-columns: 12% 1.8fr 1fr;
+   
+    
+}
+
  .web{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 0;
+    padding-top: 40%;
+
+    
+    
+    
+}
+a{
+    color:black;
+}
+.web-item{
+    transform: rotate(270deg);
+    list-style-type:none;
+    padding-top: 18%;
+    
+   
+    
+}
+.testimonials-subtitle{ 
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0;
+
+}
+
+}
+.address-cite{
+    display: block;
+    text-align:  start;
+    color:black;
+    text-decoration: none;
+   
+}
+
+.web-image{
+    margin-left:1%;
+}    
+.testimonials-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+    
+
 }
 .testimonials-blockquote{
+    width: 206px;
     font-family: "Butler", serif;
-    font: size 2rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center;
+    margin: -0.5% 0 7% 1.5%;
+    padding: 0;
+    letter-spacing:-1.1px;
+
+    
+}
+.img-blockquote{
+    width: 221px;
 }
 .points  {
     font-family: "Roboto",sans-serif;
@@ -189,5 +263,6 @@ main{
     font-size: 2.125rem; 
    
   }
+
 
 
