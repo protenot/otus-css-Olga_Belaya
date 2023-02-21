@@ -204,10 +204,10 @@ main{
     margin-bottom:2%;
 }
 .huge{
- padding-left:-10%;
- margin-left:-2.8%;
- margin-right:auto;
- width:609px;
+    padding-left:-10%;
+    margin-left:-2.8%;
+    margin-right:auto;
+    width:609px;
  
 }
 .design-item:last-child{
@@ -315,10 +315,16 @@ margin-left:1%;
 .img-blockquote{
     width: 221px;
 }
+.navigation{
+position: relative;  
+  
+}
 .points  {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
+    position: absolute;
+    transform: rotate(270deg);
 }
 
 .title-points{
