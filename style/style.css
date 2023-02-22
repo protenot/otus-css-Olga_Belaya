@@ -320,6 +320,7 @@ margin-left:1%;
 }
 .navigation{
 position: relative;  
+margin-bottom: 162;/*ПОМЕНЯТЬ НА %*/
 
   
 }
@@ -343,11 +344,24 @@ position: relative;
 .navigation-main{
     display: flex;
     background-color: bisque;
+    margin-top: 2%;
+
+}
+.image-navigation{
+    width:351px;
 }
 .list-points{
     font-family: "Butler", serif;
     font-size: 2.125rem; 
+    list-style: none;
+    
    
+    
+  }
+  .list-points-items{
+    margin-bottom:1%;
+    padding:0;
+
   }
 
 
