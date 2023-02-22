@@ -340,7 +340,6 @@ margin-left:1%;
 }
 .navigation-main{
     display: flex;
-    background-color: bisque;
     margin-top: 2.2%;
     margin-left: -.4%;
     overflow: hidden;
@@ -348,7 +347,6 @@ margin-left:1%;
 }
 .image-navigation{
     width:351px;
-    height: 525px;
 }
 .list-points{
     font-family: "Butler", serif;
@@ -357,9 +355,7 @@ margin-left:1%;
     margin-left: 43%;
     margin-top: 8%;
     width:150%;
-    background-color: aquamarine;
-    
-   
+
     
   }
   .list-points-items{
@@ -378,7 +374,6 @@ margin-left:1%;
  .navigation-main{
     display: grid;
     grid-template-columns: 351px 351px 1fr 161px;
-    background-color: bisque;
     margin-top: 2.5%;
     margin-left: -1.5%;
     overflow: hidden;
@@ -389,11 +384,9 @@ margin-left:1%;
         font-size: 2.125rem; 
         list-style: none;
         margin-left: 19%;
-        margin-top: 0%;
-       
-       
-        background-color: aquamarine;
-    }
+        margin-top: 0;
+    
+          }
 .list-points-items{
         margin:0;
         margin-bottom:-0.6%;
