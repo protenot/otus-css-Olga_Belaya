@@ -401,10 +401,10 @@ margin-left:1%;
 
 }
 @media screen and (max-width:428px){
-    *{
-        margin:0;
-        padding:0;
-    }
+   /* *{
+      /*  margin:0;
+        padding:0;*/
+    }*/
     main{
         width: 100%;
         margin: 0 auto;
@@ -413,45 +413,58 @@ margin-left:1%;
         display:none;
     }
     .hero{
-        margin-bottom: 20%;/*потом заменить*/
-        max-width: 100%;
+       /* margin-bottom: 20%;/*потом заменить*/
+        max-width: 100vw;
     }
     .hero-block{
-        position:static;
+        position: relative;;
         width: 100vw;
         max-width: 100%;
-        display: flex;
-        flex-direction:column-reverse;
+        /*display: flex;
+        /*flex-direction:column-reverse;*/
        /* margin: 0 auto;
         text-align: center;
         padding: 0;*/
        
     }
+    
     .hero-image{
-        /*display: block;*/
+        display: block;
         margin: 0 auto;
-        width: 100vw;
-        max-width: 100%;
-        height: 115%;
+        width: 1065px;
+       /* max-width: 100%;*/
+        height: 899px;
+        margin-left: -50%;
         
        
     
     }
+    .img-div{
+       /* width:1065px;
+        height:899px;   */
+        
+        width: 100vw;
+        max-width: 100%;
+        height: 115vh;
+        overflow: hidden;
+        margin: 0 auto;
+
+    }
     
     .title-block{
         width: 100vw;
-        height:120%;/*потом заменить*/
+        height:95vw;/*потом заменить*/
         margin:0 auto;
         background-color: white;
-        text-align: center;
-        position: static;    
+        
+        position: absolute;    
         transform:none; 
         box-sizing: border-box;    
-        /*top:0%;
-        left:-0%;*/
+        top:0;
+        left:0;
         padding-top: 0;
         max-width: 100%;
-       
+       padding-top: 10%;
        
     }
     .title-main{
@@ -471,5 +484,77 @@ margin-left:1%;
     }
 
     
-}
+    .biography{
+        display: flex;   
+        position:relative;
+        width: 90%;
+        max-width: 1440px;
+        background-color: beige;     
+        justify-content: space-around;
+        gap:11%;
+        margin-bottom:11.8%;
+    }
+    
+     .header-biography{
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        font-size: 1.125rem;
+        position:absolute;
+        bottom:3%;
+        right: -8.3%;
+        transform: rotate(270deg);
+       
+      
+     }
+     
+    
+     .biography-image{
+        width: 553px;
+        margin-top: 10.2%;
+        margin-left:10.3%;
+        max-width: 100%;
+        flex-basis: 100%;
+     }
+     
+     .title-biography{
+        font-family: "Butler", serif;
+        font-size: 5.4375rem; 
+        font-weight:400;
+        margin-top: 68.55%;
+        margin-bottom:10.5%;
+        line-height: 1.19;
+        margin-left: 1%;
+     } 
+     
+     .paragraph-biography{
+        font-family: "Roboto",sans-serif;
+        font-size: 1.125rem ;
+        font-weight: 500;
+        line-height: 0.7;
+        margin-left: 1%;
+      
+        
+        
+    }
+    .divider{
+        width:14px;
+        height:4px;
+        background-color: black;    
+        margin-bottom: 3.5%;
+        margin-left: 1%;
+       
+       
+    }
+    .second-line{
+        margin-bottom: 14.5%;
+    }
+    .blockqoute-biography{
+        font-family: "Butler", serif;
+        font-size: 2rem;
+        line-height: 1.21;
+        margin-left: -5%;
+        
+    }
+    
+    
 
