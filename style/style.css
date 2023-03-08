@@ -483,7 +483,7 @@ margin-left:1%;
         margin-top:-0;
         
     }
-
+/*Biography*/
     
     .biography{
         display: flex;   
@@ -565,3 +565,86 @@ margin-left:1%;
     
     
 }
+/*Designers*/
+.design{
+    position:relative;
+    margin-bottom: 17% ;
+
+}
+
+ .header-design{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    position: absolute;
+   
+    top: 0;
+    right: 10%;
+    transform: rotate(0deg);
+ }
+ .design-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom:10%;
+    gap:4%;
+    width: 100%;
+    background-color:aqua ;
+    overflow-x: auto;
+    list-style: none;
+    padding-top: 13%;
+
+ }
+
+ .design-item{
+  
+    line-height: 0.7;
+
+}
+.image-author-clein{
+    width:61.2vw;
+    margin-bottom:2%;
+}
+.image-author-red{
+    width:61.99vw; 
+    margin-bottom:2%;
+}
+.huge{
+    
+    padding-left:0;
+    margin-left:;
+    margin-right:0;
+    /*width:62vw;*/
+    order:1;
+ 
+}
+.image-author-wonder{
+    height:36.4vh;
+
+}
+.design-item:last-child{
+    margin-right: 5.1%;
+}
+.author-wonder{
+    text-align:start; 
+    margin-left:0%;
+    line-height: 0.7;
+    padding-top: 0.9%;
+
+}
+.author-title{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size:16px;
+    margin-bottom: 1%;
+    
+    
+}
+.author-text{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    letter-spacing:0.8px;
+
+}
+
