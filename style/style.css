@@ -54,6 +54,10 @@ main{
     padding: 0;
    
 }
+
+.desktop-hidden{
+    display:none;
+}
 .hero-image{
     display: block;
     margin: 0 auto;
@@ -404,7 +408,7 @@ margin-left:1%;
 .footer-adaptive{
     display: none;
 }
-@media  (max-width:428px){
+@media  (max-width:600px){
    /* *{
       /*  margin:0;
         padding:0;
@@ -447,6 +451,9 @@ margin-left:1%;
         padding: 0;*/
         margin-bottom: 14%;
        
+    }
+    .desktop-hidden{
+        display:inline;
     }
     
     .hero-image{
@@ -513,13 +520,14 @@ margin-left:1%;
     .biography{
         display: flex;   
         position:relative;
-        width: 90%;
+        width: 100%;
         max-width: 1440px;
         background-color: beige;     
         justify-content: space-around;
         gap:11%;
-        margin-bottom:11.8%;
+        /*margin-bottom:11.8%;*/
         flex-wrap: wrap;
+        padding-top: 3%;
     }
     
      .header-biography{
@@ -528,6 +536,7 @@ margin-left:1%;
         font-size: 1.125rem;
         position:absolute;
         top:0%;
+        bottom: 96%;
         right: 0%;
         transform: rotate(0deg);
        
@@ -538,35 +547,56 @@ margin-left:1%;
      flex-direction: column;
      position: relative;
      }
+     .div-img-biography{
+        order:1;
+        width: 100%;
+        height:36vh ;
+        max-width: 100%;
+       position: relative;
+        
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+     }
      .biography-image{
         width: 553px;
-        margin-top: 10.2%;
-        margin-left:10.3%;
+        margin-top: 0%;
+        margin-left:0%;
+        margin-bottom:-0%;
         max-width: 100%;
-        /*flex-basis: 100%;*/
-        order:1;
+        height: auto;
+        position: absolute;
+        top: 81%;
+        left: 85%;
+        transform:translate(-50%,-50%);
+        scale: 151%;
      }
      
      .title-biography{
         font-family: "Butler", serif;
         font-size: 5.4375rem; 
         font-weight:400;
-        margin-top: 68.55%;
-        margin-bottom:10.5%;
+        margin-top: 29%;
+        margin-bottom:0;
         line-height: 1.19;
-        margin-left: 1%;
+        margin-left:4%;
         order:1;
+        letter-spacing: 0.003em;
      } 
      
      .paragraph-biography{
         font-family: "Roboto",sans-serif;
         font-size: 1.125rem ;
         font-weight: 500;
-        line-height: 0.7;
+        line-height: 0.8;
         margin-left: 1%;
+        width:50%;
+        padding-left: 3%;
       
-        
-        
+     }   
+    .mobile-hidden {
+        display: none;
+    
     }
     .divider{
         width:14px;
@@ -575,16 +605,22 @@ margin-left:1%;
         margin-bottom: 3.5%;
         margin-left: 1%;
         position: absolute;
-        top: 78%;
+        top: 92%;
     }
+    
     .second-line{
-        margin-bottom: 14.5%;
+        margin-bottom: 26.5%;
+        line-height: 1.3;
+       
     }
     .blockqoute-biography{
         font-family: "Butler", serif;
         font-size: 2rem;
         line-height: 1.21;
-        margin-left: -5%;
+        margin: 0;
+        text-align: justify;
+        border:none;
+
         
     }
     
