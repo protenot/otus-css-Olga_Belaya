@@ -119,6 +119,11 @@ main{
    
   
  }
+ .div-img-biography{
+    width: 553px;
+    max-width: 100%;
+    flex-basis: 100%;
+ }
  
 
  .biography-image{
@@ -126,7 +131,7 @@ main{
     margin-top: 10.2%;
     margin-left:10.3%;
     max-width: 100%;
-    flex-basis: 100%;
+    
  }
  
  .title-biography{
@@ -408,7 +413,7 @@ margin-left:1%;
 .footer-adaptive{
     display: none;
 }
-@media  (max-width:600px){
+@media  (max-width:428px){
    /* *{
       /*  margin:0;
         padding:0;
@@ -488,7 +493,7 @@ margin-left:1%;
         height:95vw;/*потом заменить*/
         margin:0 auto;
         background-color: white;
-        min-height:300px ;
+       /* min-height:200px ;*/
         position: absolute;    
         transform:none; 
         box-sizing: border-box;    
@@ -546,6 +551,7 @@ margin-left:1%;
      display:flex;
      flex-direction: column;
      position: relative;
+     margin-bottom: 0%;
      }
      .div-img-biography{
         order:1;
@@ -559,17 +565,17 @@ margin-left:1%;
         padding: 0;
      }
      .biography-image{
-        width: 553px;
+        width: 100%;
         margin-top: 0%;
         margin-left:0%;
         margin-bottom:-0%;
         max-width: 100%;
         height: auto;
         position: absolute;
-        top: 81%;
+        top: 83%;
         left: 85%;
         transform:translate(-50%,-50%);
-        scale: 151%;
+        scale: 153%;
      }
      
      .title-biography{
@@ -629,7 +635,7 @@ margin-left:1%;
 /*Designers*/
 .design{
     position:relative;
-    margin-bottom: 17% ;
+    margin-bottom: 57% ;
 
 }
 
@@ -639,8 +645,8 @@ margin-left:1%;
     font-size: 1.125rem;
     position: absolute;
    
-    top: 0;
-    right: 10%;
+    top: 4%;
+    right: 0%;
     transform: rotate(0deg);
  }
  .design-list{
@@ -653,7 +659,8 @@ margin-left:1%;
     background-color:aqua ;
     overflow-x: auto;
     list-style: none;
-    padding-top: 13%;
+    padding-top: 23%;
+    padding-left: 3.5%;
 
  }
 
@@ -778,6 +785,7 @@ a{
 display: none;    
 margin-left:1%;
 
+
 }
 .testimonials{
     margin-bottom: 30%;
@@ -790,18 +798,22 @@ margin-left:1%;
 
 }
 .testimonials-blockquote{
-    width: 206px;
+    width: 100%;
     font-family: "Butler", serif;
     font-size: 2rem;
-    line-height: 1.2;
+    line-height: 1.5;
     text-align: center;
-    margin: -0.5% 0 0% 1.5%;
+    margin: 25% 0 20% 1.5%;
     padding: 0;
     letter-spacing:-1.1px;
+    border: none;
 
 }
 .img-blockquote{
-    width: 221px;
+    width: 100%;
+    height: 42vh;
+    /*object-fit: cover;*/
+   
 }
 /*navigation*/
 .navigation{
