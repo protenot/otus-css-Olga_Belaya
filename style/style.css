@@ -788,7 +788,7 @@ margin-left:1%;
 
 }
 .testimonials{
-    margin-bottom: 30%;
+    margin-bottom: 67%;
 }
 .testimonials-block{
     display: flex;
@@ -816,6 +816,7 @@ margin-left:1%;
     overflow: hidden;
      margin: 0;
     padding: 0;
+    margin-bottom: 5%;
 
 }
 .img-blockquote{
@@ -848,7 +849,7 @@ margin-left:1%;
     font-family: "Butler", serif;
     font-size: 5.75rem;
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 30%;
    
 }
 .navigation-main{
@@ -871,9 +872,9 @@ margin-left:1%;
     padding: 0;
 }
 .navigation-points{
-    width:54%;   
+    width:63%;   
     background-color: bisque;
-    margin:0;
+    margin-top:20%;
     padding:0;
 }
 .list-points{
@@ -881,20 +882,23 @@ margin-left:1%;
     font-size: 2.125rem; 
     list-style: none;
     margin-left: 0%;
-    margin-top: 8%;
-    width:inherit;
+    margin-top: 18%;
+    width:100%;
     order:0;
     background-color: aqua;
     padding:0;
     
+    
   }
   .list-points-items{
     margin:0;
-    margin-bottom:-0.6%;
+    margin-bottom:0;
     padding:0;
     margin-top: 5%;
     padding-bottom: 0%;
-    height: 27px;
+    height: 4.5vh;
+    list-style: none;
+    margin-left: 0;
     
   }
   .half{
