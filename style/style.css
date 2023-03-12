@@ -15,9 +15,9 @@
     box-sizing:border-box; 
     scroll-behavior: smooth;  
 }
-* {
+/** {
     outline: 1px solid red;
-    }
+    }*/
 
 html{
     font-size: 16px;
@@ -102,7 +102,7 @@ main{
     position:relative;
     width: 90%;
     max-width: 1440px;
-    background-color: beige;     
+        
     justify-content: space-around;
     gap:11%;
     margin-bottom:11.8%;
@@ -244,7 +244,7 @@ main{
 }
 .author-text{
     font-family: "Roboto",sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing:0.8px;
 
 }
@@ -292,6 +292,9 @@ a{
    
 
 
+}
+.www{
+    font-weight: 400;
 }
 
 .address-cite{
@@ -414,10 +417,7 @@ margin-left:1%;
     display: none;
 }
 @media  (max-width:428px){
-   /* *{
-      /*  margin:0;
-        padding:0;
-    }*/
+  
     main{
         width: 100%;
         margin: 0 auto;
@@ -440,7 +440,7 @@ margin-left:1%;
         display:none;
     }
     .hero{
-       /* margin-bottom: 20%;/*потом заменить*/
+       
         max-width: 100vw;
         margin:0;
         padding:0;
@@ -449,11 +449,7 @@ margin-left:1%;
         position: relative;;
         width: 100vw;
         max-width: 100%;
-        /*display: flex;
-        /*flex-direction:column-reverse;*/
-       /* margin: 0 auto;
-        text-align: center;
-        padding: 0;*/
+        
         margin-bottom: 14%;
        
     }
@@ -464,23 +460,21 @@ margin-left:1%;
     .hero-image{
         display: block;
         margin: 0 auto;
-        width: 1200px;
-       /* max-width: 100%;*/
-        height: 1020px;
-        margin-left: -85%;
-        margin-top: 19%;
+        width: 300vw;
+       
+        height: 98vh;
+        margin-left: -90%;
+        margin-top: 0%;
         padding: 0;
         
        
     
     }
     .img-div{
-       /* width:1065px;
-        height:899px;   */
-        
+       
         width: 95vw;
         max-width: 100%;
-        /*height: auto;*/
+       
         
         overflow: hidden;
         margin: 0;
@@ -493,7 +487,7 @@ margin-left:1%;
         height:95vw;/*потом заменить*/
         margin:0 auto;
         background-color: white;
-       /* min-height:200px ;*/
+      
         position: absolute;    
         transform:none; 
         box-sizing: border-box;    
@@ -509,11 +503,12 @@ margin-left:1%;
         
         font-family: "Butler", serif; 
         font-size: 4.375rem;   
-       padding-bottom: 0; 
+        padding-bottom: 0; 
+        font-weight: 300;
     }
     .subtitle-main{
         font-family: "Roboto",sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 1.125rem;
         text-align: center;
         margin-left:0;
@@ -527,10 +522,10 @@ margin-left:1%;
         position:relative;
         width: 100%;
         max-width: 1440px;
-        background-color: beige;     
+            
         justify-content: space-around;
         gap:11%;
-        /*margin-bottom:11.8%;*/
+       
         flex-wrap: wrap;
         padding-top: 3%;
     }
@@ -541,24 +536,25 @@ margin-left:1%;
         font-size: 1.125rem;
         position:absolute;
         top:0%;
-        bottom: 96%;
-        right: 0%;
+        bottom: 95%;
+        right: 3%;
+        
         transform: rotate(0deg);
        
       
      }
      .biography-block{
-     display:flex;
-     flex-direction: column;
-     position: relative;
-     margin-bottom: 0%;
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 0%;
      }
      .div-img-biography{
         order:1;
         width: 100%;
-        height:36vh ;
+        height:45vh ;
         max-width: 100%;
-       position: relative;
+        position: relative;
         
         overflow: hidden;
         margin: 0;
@@ -572,15 +568,15 @@ margin-left:1%;
         max-width: 100%;
         height: auto;
         position: absolute;
-        top: 83%;
-        left: 85%;
+        top: 90%;
+        left: 80%;
         transform:translate(-50%,-50%);
-        scale: 153%;
+        scale: 163%;
      }
      
      .title-biography{
         font-family: "Butler", serif;
-        font-size: 5.4375rem; 
+        font-size: 4.875rem; 
         font-weight:400;
         margin-top: 29%;
         margin-bottom:0;
@@ -612,6 +608,7 @@ margin-left:1%;
         margin-left: 1%;
         position: absolute;
         top: 92%;
+        display: none;
     }
     
     .second-line{
@@ -646,7 +643,7 @@ margin-left:1%;
     position: absolute;
    
     top: 4%;
-    right: 0%;
+    right: 3%;
     transform: rotate(0deg);
  }
  .design-list{
@@ -654,9 +651,9 @@ margin-left:1%;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom:10%;
-    gap:4%;
+    gap:0.1%;
     width: 100%;
-    background-color:aqua ;
+    background-color:transparent;
     overflow-x: auto;
     list-style: none;
     padding-top: 23%;
@@ -691,7 +688,7 @@ margin-left:1%;
 
 }
 .design-item:last-child{
-    margin-right: 5.1%;
+    margin-right: 0%;
 }
 .author-wonder{
     text-align:start; 
@@ -704,16 +701,29 @@ margin-left:1%;
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    font-size:16px;
-    margin-bottom: 1%;
+    font-size:1rem;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    
     
     
 }
+
 .author-text{
     font-family: "Roboto",sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing:0.8px;
+    font-size:1rem;
+    padding: 1% 0;
+    margin-left: 20%;
+    width: 65vw;
 
+}
+.design-item:nth-child(2) .author-title{
+    margin-left: 0;
+}
+.design-item:nth-child(2) .author-text{
+    margin-left: 0;
 }
 
 /*Testimonials*/
@@ -726,7 +736,7 @@ margin-left:1%;
     margin-left: 0%;
     margin-bottom:3%;
     text-align: right;
-   
+   padding-right: 3%;
 }
 .testimonials-block-main{
     display: grid;
@@ -748,7 +758,7 @@ margin-left:1%;
     width: 100%;
     max-width: 100%;
     padding-left: 0;
-    background-color: pink;
+    
     grid-row-start: 2 ;
     grid-row-end: 3;
 }
@@ -761,7 +771,7 @@ a{
     padding: 1.5% 4% 3%;
     /*min-width: auto;*/
    max-width: 49%;
-    background-color: aquamarine;
+   
 }
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
@@ -842,8 +852,9 @@ margin-left:1%;
     font-size: 1.125rem;
     position: absolute;
     transform: rotate(0deg);
-    left:70.2%;
+    left:68%;
     top: 0%;
+    right: 3%;
 }
 
 .title-points{
@@ -851,6 +862,9 @@ margin-left:1%;
     font-size: 5.75rem;
     margin: 0 auto;
     padding-top: 30%;
+    padding-left: 5%;
+    
+    
    
 }
 .navigation-main{
@@ -880,7 +894,7 @@ margin-left:1%;
 }
 .navigation-points{
     width:53%;   
-    background-color: bisque;
+   
     margin-top:10%;
     margin-left: 00%;
     padding:0;
@@ -893,10 +907,7 @@ margin-left:1%;
     margin-top: 18%;
     width:100%;
     order:0;
-    background-color: aqua;
-    
-    
-    
+ 
     
   }
   .list-points-items{
@@ -940,7 +951,8 @@ margin-left:1%;
    font-family: "Butler", serif;
    font-size: 2.5rem;
    text-align: center;
-   padding: 4% 0;
+   padding: 6% 0;
+   font-weight: 400;
    
 }
 .footer-list a{
