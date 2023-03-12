@@ -856,9 +856,12 @@ margin-left:1%;
     display: flex;
     margin-top: 0%;
     margin-left: 0%;
+    margin-bottom: 20%;
     overflow: hidden;
     gap: 0%;
     width:100%;
+    padding-top: 10%;
+    
 }
 .first{
     display: none;
@@ -868,25 +871,30 @@ margin-left:1%;
     
     width:351px;
     order:1;
-    margin-left:-30%;
+    margin:0;
+    margin-left:-20%;
+    
     padding: 0;
+    height: 65vh;
 }
 .navigation-points{
     width:63%;   
     background-color: bisque;
-    margin-top:20%;
+    margin-top:10%;
+    margin-left: -10%;
     padding:0;
 }
 .list-points{
     font-family: "Butler", serif;
     font-size: 2.125rem; 
-    list-style: none;
-    margin-left: 0%;
+    padding:0;
+    margin-left: 0;
     margin-top: 18%;
     width:100%;
     order:0;
     background-color: aqua;
-    padding:0;
+    
+    
     
     
   }
@@ -903,6 +911,7 @@ margin-left:1%;
   }
   .half{
     margin-left: 23%;
+    display: none;
   }
 
   
