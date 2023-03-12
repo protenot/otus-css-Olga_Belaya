@@ -758,7 +758,7 @@ a{
 .web-item{
     transform: rotate(0deg);
     list-style-type:none;
-    padding: 1.5% 2% 3%;
+    padding: 1.5% 4% 3%;
     /*min-width: auto;*/
    max-width: 49%;
     background-color: aquamarine;
@@ -798,13 +798,13 @@ margin-left:1%;
 
 }
 .testimonials-blockquote{
-    width: 100%;
+    width: 98%;
     font-family: "Butler", serif;
     font-size: 2rem;
     line-height: 1.5;
     text-align: center;
     margin: 25% 0 20% 1.5%;
-    padding: 0;
+    padding: 2%git;
     letter-spacing:-1.1px;
     border: none;
 
@@ -820,14 +820,15 @@ margin-left:1%;
 
 }
 .img-blockquote{
-    width: 100%;
-    height: 100cap;
+    width: 98%;
+    height: 65vh;
     /*object-fit: cover;*/
     position: absolute;
-    top: -24%;
-    left: 4%;
+    top: -28%;
+    left: 5%;
    /* transform:translate(-50%,-50%);*/
    scale: 110%;
+   padding: 0 10% 0 4%;
 }
 /*navigation*/
 .navigation{
@@ -872,16 +873,16 @@ margin-left:1%;
     width:351px;
     order:1;
     margin:0;
-    margin-left:-20%;
+    margin-left:-30%;
     
     padding: 0;
     height: 65vh;
 }
 .navigation-points{
-    width:63%;   
+    width:53%;   
     background-color: bisque;
     margin-top:10%;
-    margin-left: -10%;
+    margin-left: 00%;
     padding:0;
 }
 .list-points{
@@ -917,16 +918,36 @@ margin-left:1%;
   
 .footer-adaptive{
     display: block;
+    width: 100%;
+    height: 10vh;
  }
 .footer-line{
     width:100%;
     height: 2px;
     background-color: black; 
+    
 }
 .footer-list{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    height: calc(10vh - 2px);
+    padding-left: 0;
+}
+.footer-list-item{
+   width: 20vw;
+   text-transform: capitalize;
+   font-family: "Butler", serif;
+   font-size: 2.5rem;
+   text-align: center;
+   padding: 4% 0;
+   
+}
+.footer-list a{
+    display: block;
+    width: 20vw; 
+    height:calc(10vh - 2px);
+    
 }
 
 @supports (display: grid){
