@@ -448,13 +448,13 @@ width:60.7%;
     }
     .hero{
        
-        max-width: 100vw;
+        max-width: 100%;
         margin:0;
         padding:0;
     }
     .hero-block{
         position: relative;;
-        width: 100vw;
+        width: 100%;
         max-width: 100%;
         
         margin-bottom: 14%;
@@ -463,34 +463,34 @@ width:60.7%;
     .desktop-hidden{
         display:inline;
     }
-    
-    .hero-image{
-        display: block;
-        margin: 0 auto;
-        width: 300vw;
-       
-        height: 98vh;
-        margin-left: -90%;
-        margin-top: 0%;
-        padding: 0;
-        
-       
-    
-    }
     .img-div{
        
-        width: 95vw;
-        max-width: 100%;
-       
-        
+        width: 100%;
+       /* max-width: 300vw;*/
+       height: 100vh;
+    
         overflow: hidden;
         margin: 0;
         padding: 0;
 
     }
+    .hero-image{
+        display: block;
+        margin: 0;
+        width: 110%;
+        max-width: 1440px;
+        height: 80vh;
+        
+        padding: 0;
+        scale: 190%;
+        
+       
+    
+    }
+    
     
     .title-block{
-        width: 100vw;
+        width: 100%;
         height:95vw;/*потом заменить*/
         margin:0 auto;
         background-color: white;
