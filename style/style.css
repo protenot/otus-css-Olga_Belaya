@@ -32,12 +32,32 @@ html{
     justify-content: center;
 }
 .header-button{
-    border:none;
-    margin:1% auto 0;
-    background-color: aqua;
+    border: 5px solid transparent;
+    margin:0.5% auto 0;
+    background-color:white;
+    cursor:pointer;
+    border-radius: 10%;
+    transition-property: border, background-color ;
+    transition-duration: 0.4s;
+
 }
-
-
+.header-button:hover:focus{
+background-color: #e5e5d9;
+border: 5px solid #c4a9a9;
+}
+/*.rotate{
+    animation: rotate 0.7s ease-in-out both;
+    
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+*/
 main{
     width:100%;
     margin: 0 auto;
