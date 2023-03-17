@@ -10,16 +10,17 @@
     local("Butler");
     font-weight:300;   
 }
-/*
+
 *{
     margin: 0;
     box-sizing:border-box; 
     scroll-behavior: smooth;  
 }
+/*
 * {
     outline: 1px solid red;
-    }
-*/
+    }*/
+
 html{
     font-size: 16px;
     line-height: 1.2;
@@ -257,6 +258,7 @@ main{
     width: 100%;
     /*background-color:aqua ;*/
     overflow-x: auto;
+    overflow-y: hidden;
     list-style: none;
 
  }
@@ -322,7 +324,7 @@ main{
     padding-top: 0.4%;
     margin-bottom:3%;
    /* width: 99%;*/
-   background-color: bisque;
+   /*background-color: bisque;*/
 
    
 }
@@ -364,10 +366,13 @@ a{
     transform: rotate(0deg);
     list-style-type:none;
     padding-top: 18%;
+}
+ .web-item:focus{
+    transform: rotate(0deg);
    
-
     
 }
+
 
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
@@ -408,7 +413,7 @@ height: 52.7vw;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    background: pink;
+    /*background: pink;*/
     
 
 }
@@ -433,6 +438,7 @@ height: 52.7vw;
 /*Navigation*/
 .navigation{
     position: relative;  
+    /*background-color: yellow;*/
   
 }
 
@@ -450,7 +456,9 @@ height: 52.7vw;
     font-family: "Butler", serif;
     font-size: 5.75rem;
    /* margin-left: 55.3%;*/
-   text-align: end;
+   text-align: center;
+   padding-left: 38%;
+   /*width: 100%;*/
 }
 .navigation-main{
     display: flex;
@@ -460,7 +468,8 @@ height: 52.7vw;
     gap: 2%;
 }
 .image-navigation{
-    width:23.1vw;
+    width:24.1vw;
+    height: 38vw;
 }
 .list-points{
     font-family: "Butler", serif;
@@ -479,7 +488,18 @@ height: 52.7vw;
     margin-top: 5%;
     padding-bottom: -35.6%;
     height: 27px;
+    border: 1px solid white;
+    transition: font-weight 0.4s;
+    text-decoration: none;
   }
+  .list-points-items:hover{
+   font-weight:900;
+  
+  }
+  .list-points-items:focus{
+    font-weight:900;
+   
+   }
   .half{
     margin-left: 23%;
   }
@@ -975,10 +995,10 @@ margin-left:1%;
 .title-points{
     font-family: "Butler", serif;
     font-size: 5.75rem;
-    margin: 0 auto;
+   /* margin: 0 auto;*/
     padding-top: 30%;
     padding-left: 5%;
-    
+    text-align: end;
     
    
 }
@@ -1022,6 +1042,7 @@ margin-left:1%;
     margin-top: 18%;
     width:100%;
     order:0;
+
  
     
   }
