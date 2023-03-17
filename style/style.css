@@ -318,7 +318,8 @@ main{
     font-weight: 700;
     font-size: 1.125rem;
     box-sizing: border-box;
-    padding-left: 12.5%;
+    padding-left: 11.75%;
+    padding-top: 0.4%;
     margin-bottom:3%;
    /* width: 99%;*/
    background-color: bisque;
@@ -327,8 +328,10 @@ main{
 }
 .testimonials-block-main{
     display: grid;
-    grid-template-columns: 12% 1.8fr 1fr;
+    grid-template-columns: 11.7% 1.8fr 1fr;
     background-color: rgb(208, 168, 133);
+    width:100%;
+    height: 52.7vw;
 
 }
 
@@ -339,7 +342,8 @@ main{
     flex-direction: column;
     justify-content: space-around;
     margin-right: 0;
-    padding-top: 40%;
+    padding-top: 30%;
+    margin-right: 14%;
     
 }
 a{
@@ -384,8 +388,10 @@ a{
    
 }
 .web-image{
-margin-left:1%;
-width:60.7%;
+margin-left:0;
+padding-left: 0;
+width:63.7%;
+height: 52.7vw;
 
 }
 .testimonials{
