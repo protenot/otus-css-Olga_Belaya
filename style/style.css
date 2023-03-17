@@ -230,8 +230,10 @@ main{
     
 }
 
+/*Designers*/
 .design{
     position:relative;
+    margin-top: 15.1%;
     margin-bottom: 17% ;
 
 }
@@ -266,15 +268,17 @@ main{
 }
 .image-author-clein{
     width:309px;
-    margin-bottom:2%;
+   margin-bottom:1.5%;
+   margin-left: 2.7%;
 }
 .image-author-red{
     width:312px; 
     margin-bottom:2%;
+    margin-left: 2.7%;
 }
 .huge{
     padding-left:-10%;
-    margin-left:-2.8%;
+    margin-left:-3.5%;
     margin-right:auto;
     width:609px;
  
@@ -284,7 +288,7 @@ main{
 }
 .author-wonder{
     text-align:start; 
-    margin-left:30%;
+    margin-left:29%;
     line-height: 0.7;
     padding-top: 0.9%;
 
@@ -295,6 +299,8 @@ main{
     text-transform: uppercase;
     font-size:16px;
     margin-bottom: 1%;
+    margin-left: 3%;
+
     
     
 }
@@ -302,6 +308,7 @@ main{
     font-family: "Roboto",sans-serif;
     font-weight: 400;
     letter-spacing:0.8px;
+    margin-left: 3%;
 
 }
 
@@ -738,6 +745,7 @@ width:60.7%;
     padding-left:0;
     margin-left:0;
     margin-right:0;
+    margin-bottom: -2.5%;
     /*width:62vw;*/
     order:1;
  
@@ -776,6 +784,7 @@ width:60.7%;
     padding: 1% 0;
     margin-left: 20%;
     width: 65vw;
+    white-space: nowrap;
 
 }
 .design-item:nth-child(2) .author-title{
