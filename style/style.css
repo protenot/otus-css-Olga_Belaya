@@ -48,19 +48,6 @@ background-color: #e5e5d9;
 border: 5px solid #c4a9a9;
 transform: rotateZ(360deg);
 }
-/*.rotate{
-    animation: rotate 0.7s ease-in-out both;
-    
-}
-@keyframes rotate {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-*/
 main{
     width:100%;
     margin: 0 auto;
@@ -180,8 +167,19 @@ main{
     scale: 113.8%;
     max-width: 100%;
     min-height: 600px;
+
+    overflow: hidden;
+    transition: all 0.4s;
+
     
  }
+
+ .biography-image:hover{
+
+    border-radius: 50%;
+    transform: rotate(360deg);
+
+}
  
  .title-biography{
     font-family: "Butler", serif;
