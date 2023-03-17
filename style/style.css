@@ -411,6 +411,7 @@ height: 52.7vw;
     display: flex;
     flex-direction: column;
     justify-content: start;
+    max-height: 600px;
     /*background: pink;*/
     
 
@@ -425,8 +426,9 @@ height: 52.7vw;
     padding: 0;
     letter-spacing:-0.9px;
     border:none;
+    /*min-height: 400px;*/
    
-
+/*white-space: nowrap;*/
 }
 .img-blockquote{
     width: 50%;
@@ -687,8 +689,13 @@ height: 52.7vw;
         left: 80%;
         transform:translate(-50%,-50%);
         scale: 163%;
+        transition: none;
      }
-     
+     .biography-image:hover{
+
+        transform: none;
+        border-radius: 100%;
+     }
      .title-biography{
         font-family: "Butler", serif;
         font-size: 4.875rem; 
@@ -898,12 +905,18 @@ a{
     
 }
 .web-item:hover{
-    transform: rotate(-5deg);
+    transform: none;
     list-style-type:none;
 
 
    
    
+}
+
+.web-item:focus{
+    transform: none;
+   
+    
 }
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
@@ -941,6 +954,7 @@ margin-left:1%;
 }
 .testimonials-blockquote{
     width: 98%;
+    min-width: 180px ;
     font-family: "Butler", serif;
     font-size: 2rem;
     line-height: 1.5;
@@ -975,7 +989,8 @@ margin-left:1%;
 }
 /*navigation*/
 .navigation{
-    position: relative;  
+    position: relative;
+   
   
 }
 
