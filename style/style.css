@@ -68,7 +68,7 @@ main{
 .hero{
     
     width: 100%;
-    background-color: pink;
+    /*background-color: pink;*/
    /* max-width: 100%;*/
     margin-top: 4.5%;   
 
@@ -255,7 +255,7 @@ main{
     margin-bottom:10%;
     gap:2%;
     width: 100%;
-    background-color:aqua ;
+    /*background-color:aqua ;*/
     overflow-x: auto;
     list-style: none;
 
@@ -312,7 +312,7 @@ main{
 
 }
 
-
+/*Testomonials*/
 .title-testimonials {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
@@ -321,11 +321,15 @@ main{
     padding-left: 12.5%;
     margin-bottom:3%;
    /* width: 99%;*/
+   background-color: bisque;
+
    
 }
 .testimonials-block-main{
     display: grid;
     grid-template-columns: 12% 1.8fr 1fr;
+    background-color: rgb(208, 168, 133);
+
 }
 
  .web{
@@ -345,8 +349,18 @@ a{
     transform: rotate(270deg);
     list-style-type:none;
     padding-top: 18%;
+    transition: all 0.4s;
     
 }
+.web-item:hover{
+    transform: rotate(0deg);
+    list-style-type:none;
+    padding-top: 18%;
+   
+
+    
+}
+
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
     font-weight: 700;
@@ -363,7 +377,7 @@ a{
 
 .address-cite{
     display: block;
-  
+    
     text-align:  start;
     color:black;
     text-decoration: none;
@@ -395,6 +409,7 @@ width:60.7%;
     margin: -0.5% 0 7% 1.5%;
     padding: 0;
     letter-spacing:-1.1px;
+    border:none;
 
 }
 .img-blockquote{
@@ -650,6 +665,7 @@ width:60.7%;
         margin-left:4%;
         order:1;
         letter-spacing: 0.003em;
+        padding-left: 0;
      } 
      
      .paragraph-biography{
@@ -771,6 +787,7 @@ width:60.7%;
     font-size:1rem;
     margin-bottom: 2%;
     margin-left: 20%;
+   
     
     
     
