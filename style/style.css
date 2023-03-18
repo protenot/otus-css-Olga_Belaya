@@ -16,11 +16,11 @@
     box-sizing:border-box; 
     scroll-behavior: smooth;  
 }
-
+/*
 * {
     outline: 1px solid red;
     }
-
+*/
 html{
     font-size: 16px;
     line-height: 1.2;
@@ -208,7 +208,6 @@ main{
     width:14px;
     height:4px;
     background-color: black;    
-    
     margin-left: 9%;
    
    
@@ -410,8 +409,7 @@ a{
     flex-direction: column;
     justify-content: start;
     max-height: 600px;
-    /*background: pink;*/
-    
+       
 
 }
 .testimonials-blockquote{
@@ -425,7 +423,7 @@ a{
     letter-spacing:-0.9px;
     border:none;
     white-space: nowrap;
-    /*min-height: 400px;*/
+   
    
    
 }
@@ -456,39 +454,31 @@ a{
 .title-points{
     font-family: "Butler", serif;
     font-size: 5.75rem;
-   /* margin-left: 55.3%;*/
-   text-align: center;
-   padding-left: 38%;
+    text-align: center;
+    padding-left: 38%;
     width: 100%;
 }
 .navigation-main{
     
     display: flex;
-   
-    /*justify-content: space-between;*/
     margin-top: 2.2%;
     margin-left: -.4%;
     overflow: hidden;
     gap: 28px;
-   width: inherit;
+    width: inherit;
     max-width: 100%;
-    /*padding-right: 2%;*/
+    
 }
 .image-navigation{
-    width:100%;
-    height: 95%;
-  /* min-height: 0;*/
+    width:24vw;
+    height: 45vh;
      flex-basis: 20%;
-   /*  min-width: 0;*/
      display:block;
-     flex-shrink: 4;
 
 }
 .navigation-points{
     flex-basis: 50%;
     width: 100%;
-
-    /*flex-grow: 1;*/
 }
 .list-points{
     font-family: "Butler", serif;
@@ -497,7 +487,7 @@ a{
     margin-left: 3%;
     margin-top: 8%;
    
-   display:block; 
+    display:block; 
    
   
 
@@ -525,13 +515,11 @@ a{
    }
   .half{
     padding-left: 5%;
-   margin-left: 18%;
-   flex-basis: 10%;
-  /*overflow: hidden;*/
- /* width:100%;*/
-  height: 400%;
-  /*margin-right: -10%;*/
-  align-items: end;
+    margin-left: 18%;
+    flex-basis: 10%;
+    width:100%;
+    height: 100%;
+    align-items: end;
   }
 
 /*@supports (display: grid){
@@ -606,7 +594,7 @@ a{
     .img-div{
        
         width: 100%;
-       /* max-width: 300vw;*/
+       
        height: 100vh;
     
         overflow: hidden;
@@ -967,8 +955,8 @@ a{
    
 }
 .web-image{
-display: none;    
-margin-left:1%;
+    display: none;    
+    margin-left:1%;
 
 
 }
