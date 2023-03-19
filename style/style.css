@@ -43,7 +43,7 @@ html{
     transform: rotateZ(0deg);
 
 }
-.header-button:hover:focus{
+.header-button:hover, .header-button:hover:focus{
     background-color: #e5e5d9;
     border: 5px solid #c4a9a9;
     transform: rotateZ(360deg);
@@ -123,7 +123,7 @@ main{
     background-color: white; 
 }
 
-/*Biogtraphy*/
+/*Biography*/
 
 
 .biography{
@@ -167,17 +167,15 @@ main{
     min-height: 600px;
 
     overflow: hidden;
-    transition: all 0.4s;
+   
 
     
  }
 
- .biography-image:hover{
-
-    border-radius: 50%;
-    transform: rotate(360deg);
-
-}
+ .biography-block{
+    display: flex;
+    flex-direction: column;
+ }
  
  .title-biography{
     font-family: "Butler", serif;
@@ -352,19 +350,9 @@ a{
     transform: rotate(270deg);
     list-style-type:none;
     padding-top: 18%;
-    transition: all 0.4s;
+    /*transition: all 0.4s;*/
     text-align: center;
     padding-right: 20%;
-    
-}
-.web-item:hover{
-    transform: rotate(0deg);
-    list-style-type:none;
-    padding-top: 18%;
-}
- .web-item:focus{
-    transform: rotate(0deg);
-   
     
 }
 
@@ -551,7 +539,37 @@ a{
 .footer-adaptive{
     display: none;
 }
-@media  (max-width:428px){
+@media  (min-width: 660px) {
+    .biography-image{
+        transition: border-radius 0.4s, transform 0.4s;
+
+    }
+    .biography-image:hover{
+
+        border-radius: 50%;
+        transform: rotate(360deg);
+    
+    }
+
+   
+   .web-item{
+    transition: transform 0.4S;
+   }
+   
+    .web-item:hover{
+        transform: rotate(0deg);
+        
+    }
+     .web-item:focus{
+        transform: rotate(0deg);
+       
+        
+    }
+    
+
+    
+}
+@media  (max-width:660px){
   
     main{
         width: 100%;
@@ -707,13 +725,13 @@ a{
         left: 80%;
         transform:translate(-50%,-50%);
         scale: 163%;
-        transition: none;
+        /*transition: none;*/
      }
-     .biography-image:hover{
+     /*.biography-image:hover{
 
         transform: none;
         border-radius: 100%;
-     }
+     }*/
      .title-biography{
         font-family: "Butler", serif;
         font-size: 4.875rem; 
@@ -917,12 +935,12 @@ a{
     padding: 1.5% 4% 3%;
     /*min-width: auto;*/
    max-width: 49%;
-  transition: none;
+  /*transition: none;*/
     text-align: center;
     /*padding-right: 20%;*/
     
 }
-.web-item:hover{
+/*.web-item:hover{
     transform: none;
     list-style-type:none;
 
@@ -935,7 +953,7 @@ a{
     transform: none;
    
     
-}
+}*/
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
     font-weight: 700;
