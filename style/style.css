@@ -16,11 +16,11 @@
     box-sizing:border-box; 
     scroll-behavior: smooth;  
 }
-/*
+
 * {
     outline: 1px solid red;
     }
-*/
+
 html{
     font-size: 16px;
     line-height: 1.2;
@@ -145,6 +145,7 @@ main{
     bottom:-1.9%;
     right: -8.9%;
     transform: rotate(270deg);
+    
    
   
  }
@@ -165,6 +166,7 @@ main{
     scale: 113.8%;
     max-width: 100%;
     min-height: 600px;
+    min-width: 250px;
 
     overflow: hidden;
    
@@ -172,10 +174,10 @@ main{
     
  }
 
- .biography-block{
+ /*.biography-block{
     display: flex;
     flex-direction: column;
- }
+ }*/
  
  .title-biography{
     font-family: "Butler", serif;
@@ -186,6 +188,7 @@ main{
     line-height: 1.19;
     margin-left: 1%;
     padding-left: 7.5%;
+    flex-basis: 50%;
     
    
  } 
@@ -198,6 +201,7 @@ main{
     margin-left: 1%;
     padding-left: 7.5%;
     margin-top: -.7%;
+    
   
     
     
@@ -212,6 +216,8 @@ main{
 }
 .second-line{
     margin-bottom: 14%;
+   /* white-space: nowrap;*/
+   line-height: 1.2;
 }
 .blockqoute-biography{
     font-family: "Butler", serif;
@@ -569,7 +575,7 @@ a{
 
     
 }
-@media  (max-width:660px){
+@media  (max-width:680px){
   
     main{
         width: 100%;
