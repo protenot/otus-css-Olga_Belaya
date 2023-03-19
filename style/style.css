@@ -545,7 +545,7 @@ a{
 .footer-adaptive{
     display: none;
 }
-@media  (min-width: 660px) {
+@media  (min-width: 680px) {
     .biography-image{
         transition: border-radius 0.4s, transform 0.4s;
 
@@ -721,16 +721,17 @@ a{
      }
      .biography-image{
         width: 100%;
-        margin-top: 0%;
-        margin-left:0%;
-        margin-bottom:-0%;
-        max-width: 100%;
+        margin: 0 auto;
+        /*margin-left:0%;
+        margin-bottom:-0%;*/
+        max-width: 428px;
         height: auto;
+        
         position: absolute;
         top: 90%;
         left: 80%;
         transform:translate(-50%,-50%);
-        scale: 163%;
+        scale:170% 163%;
         /*transition: none;*/
      }
      /*.biography-image:hover{
@@ -785,9 +786,10 @@ a{
         font-family: "Butler", serif;
         font-size: 2rem;
         line-height: 1.21;
-        margin: 0;
+        margin: 0 auto;
         text-align: justify;
         border:none;
+        max-width: 428PX;
 
         
     }
