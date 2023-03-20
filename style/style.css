@@ -235,6 +235,7 @@ main{
     position:relative;
     margin-top: 15.1%;
     margin-bottom: 17% ;
+    /*overflow: hidden;*/
 
 }
 
@@ -281,9 +282,10 @@ main{
     padding-left:-10%;
     margin-left:-3.5%;
     margin-right:auto;
-    width:609px;
+  /*  width:30%;*/
  
 }
+
 .design-item:last-child{
     margin-right: 5.1%;
 }
@@ -691,7 +693,7 @@ a{
         max-width: 1440px;
         margin-bottom:0;   
         justify-content: space-around;
-        gap:11%;
+     /*   gap:11%;*/
        
         flex-wrap: wrap;
         padding-top: 0%;
@@ -717,10 +719,11 @@ a{
         margin-bottom: -3%;
      }
      .div-img-biography{
+        
         order:1;
-        width: 100%;
+        width: 553px;
         height:27.5vh ;
-        max-width: 100%;
+        /*max-width: 100%;*/
         position: relative;
         margin-top: -3.5%;
         
@@ -730,12 +733,13 @@ a{
         padding: 0;
      }
      .biography-image{
+        
         width: 100%;
         margin: 0 auto;
         /*margin-left:0%;
         margin-bottom:-0%;*/
         max-width: 428px;
-        height: auto;
+       /* height: auto;*/
         
         position: absolute;
         top: 79%;
@@ -751,6 +755,7 @@ a{
         border-radius: 100%;
      }*/
      .title-biography{
+        
         font-family: "Butler", serif;
         font-size: 4.875rem; 
         font-weight:400;
@@ -795,6 +800,7 @@ a{
        
     }
     .blockqoute-biography{
+        
         font-family: "Butler", serif;
         font-size: 2rem;
         line-height: 1.21;
@@ -815,7 +821,7 @@ a{
 .design{
     position:relative;
     margin-bottom: 50% ;
-    /*width: auto;*/
+    width: auto;
 
 }
 
@@ -850,12 +856,12 @@ a{
   
     line-height: 0.7;
     padding-left: 2.2%;
-    width: 61vw;
+    /*width: 61vw;*/
 
 }
 .image-author-clein{
     width:58vw;
-    height: calc(58vw * 1.68);
+   height: calc(58vw * 1.68);
     padding-left: 0%;
     /*object-fit: cover;*/
    /* margin-bottom:2%;*/
@@ -863,7 +869,7 @@ a{
 .image-author-red{
     width:58vw; 
     height: calc(58vw*1.68);
-    
+    margin-left: -6%;
     margin-bottom:2%;
 }
 .huge{
@@ -879,7 +885,7 @@ a{
 }
 .image-author-wonder{
     height:36.4vh;
-    scale: 90%;
+/*    scale: 90%;*/
 
 }
 .design-item:last-child{
@@ -916,11 +922,17 @@ a{
     width: 65vw;
     white-space: nowrap;
     padding-left: 5%;
+    line-height: 0.2;
 
 }
+
 .design-item:nth-child(3) .author-title{
     margin-left: 0;
-    padding-left: 25%;
+    padding-left: 11%;
+}
+.design-item:nth-child(3) .author-text{
+    margin-left: 0;
+    padding-left: 11%;
 }
 .design-item:nth-child(1) .author-title{
     margin-left: 0;
@@ -932,7 +944,11 @@ a{
     margin-left: 0;
     
 }
+
 /*Testimonials*/
+.testimonials{
+    width:100%;
+}
 .title-testimonials {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
@@ -1021,6 +1037,7 @@ a{
     margin-left:1%;
 
 
+
 }
 .testimonials{
     margin-bottom: 67%;
@@ -1033,6 +1050,7 @@ a{
 
 }
 .testimonials-blockquote{
+    
     width: 98%;
     min-width: 180px ;
     font-family: "Butler", serif;
@@ -1048,7 +1066,7 @@ a{
 }
 .div-img-blockquote{
     position: relative;
-    width: 95vw;
+    width: 100%;
     height: 90vw;
     overflow: hidden;
      margin: 0;
@@ -1162,6 +1180,9 @@ a{
     display: block;
     width: 100%;
     height: 10vh;
+    
+
+
  }
 .footer-line{
     width:100%;
