@@ -610,6 +610,7 @@ a{
         max-width: 100%;
         
         margin-bottom: 14%;
+        /*padding-bottom: 10%;*/
        
     }
     .desktop-hidden{
@@ -619,7 +620,8 @@ a{
        
         width: 100%;
        
-       height: 103.2vh;
+       height: 71vh;
+       /*max-height: 105vh;*/
     
         overflow: hidden;
         margin: 0;
@@ -631,13 +633,15 @@ a{
     .hero-image{
         display: block;
         margin: 0 auto;
-        width: 130%;
+        width: 1065px;
+        height: 899px;
         max-width: 1440px;
-        height: 80vh;
+        /*height: 50vh;*/
         object-fit: cover;
-        height: 104vh;
+        /*height: 104vh;*/
         padding: 0;
         scale: 100%;
+        margin-left: -65%;
         
        
     
@@ -646,7 +650,7 @@ a{
     
     .title-block{
         width: 100%;
-        height:95vw;/*потом заменить*/
+        height:93vw;/*потом заменить*/
         margin:0;
         background-color: white;
       
@@ -685,12 +689,12 @@ a{
         position:relative;
         width: 100%;
         max-width: 1440px;
-            
+        margin-bottom:0;   
         justify-content: space-around;
         gap:11%;
        
         flex-wrap: wrap;
-        padding-top: 3%;
+        padding-top: 0%;
     }
     
      .header-biography{
@@ -698,9 +702,9 @@ a{
         font-weight: 700;
         font-size: 1.125rem;
         position:absolute;
-        top:0%;
+        top:-2.7%;
         bottom: 95%;
-        right: 3%;
+        right: 4%;
         
         transform: rotate(0deg);
        
@@ -710,16 +714,18 @@ a{
         display:flex;
         flex-direction: column;
         position: relative;
-        margin-bottom: 0%;
+        margin-bottom: -3%;
      }
      .div-img-biography{
         order:1;
         width: 100%;
-        height:45vh ;
+        height:27.5vh ;
         max-width: 100%;
         position: relative;
+        margin-top: -3.5%;
         
         overflow: hidden;
+
         margin: 0;
         padding: 0;
      }
@@ -732,10 +738,11 @@ a{
         height: auto;
         
         position: absolute;
-        top: 90%;
-        left: 80%;
+        top: 79%;
+        left: 64%;
         transform:translate(-50%,-50%);
-        scale:170% 163%;
+        scale:130%;
+        
         /*transition: none;*/
      }
      /*.biography-image:hover{
@@ -747,7 +754,7 @@ a{
         font-family: "Butler", serif;
         font-size: 4.875rem; 
         font-weight:400;
-        margin-top: 29%;
+        margin-top: 10.5%;
         margin-bottom:0;
         line-height: 1.19;
         margin-left:4%;
@@ -760,10 +767,11 @@ a{
         font-family: "Roboto",sans-serif;
         font-size: 1.125rem ;
         font-weight: 500;
-        line-height: 0.8;
-        margin-left: 1%;
+        line-height: 0.5;
+        margin-left: 2.5%;
         width:50%;
         padding-left: 3%;
+        margin-top: -1%;
       
      }   
     .mobile-hidden {
@@ -782,8 +790,8 @@ a{
     }
     
     .second-line{
-        margin-bottom: 26.5%;
-        line-height: 1.3;
+        margin-bottom: 22%;
+        line-height: 1.12;
        
     }
     .blockqoute-biography{
@@ -793,7 +801,10 @@ a{
         margin: 0 auto;
         text-align: justify;
         border:none;
-        max-width: 428PX;
+        max-width: 428px;
+        padding: 0 5%;
+        letter-spacing: 0.0001rem;
+        word-spacing: 0.01rem;
 
         
     }
