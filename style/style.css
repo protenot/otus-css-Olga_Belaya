@@ -619,22 +619,25 @@ a{
        
         width: 100%;
        
-       height: 100vh;
+       height: 103.2vh;
     
         overflow: hidden;
         margin: 0;
         padding: 0;
+        
+
 
     }
     .hero-image{
         display: block;
-        margin: 0;
-        width: 110%;
+        margin: 0 auto;
+        width: 130%;
         max-width: 1440px;
         height: 80vh;
-        
+        object-fit: cover;
+        height: 104vh;
         padding: 0;
-        scale: 190%;
+        scale: 100%;
         
        
     
@@ -644,7 +647,7 @@ a{
     .title-block{
         width: 100%;
         height:95vw;/*потом заменить*/
-        margin:0 auto;
+        margin:0;
         background-color: white;
       
         position: absolute;    
@@ -654,23 +657,24 @@ a{
         left:0;
         padding-top: 0;
         max-width: 100%;
-       padding-top: 0%;
-       padding-bottom: 42vh;
+       max-height: 500px;
+       padding-bottom: 0;
        
     }
     .title-main{
         
         font-family: "Butler", serif; 
         font-size: 4.375rem;   
-        padding-bottom: 0; 
+        padding:34.5% 0 5.8% 3% ; 
         font-weight: 300;
+        margin: 0;
     }
     .subtitle-main{
         font-family: "Roboto",sans-serif;
         font-weight: 500;
         font-size: 1.125rem;
         text-align: center;
-        margin-left:0;
+        margin-left:2%;
         margin-top:-0;
         
     }
