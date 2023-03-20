@@ -16,11 +16,11 @@
     box-sizing:border-box; 
     scroll-behavior: smooth;  
 }
-
+/*
 * {
     outline: 1px solid red;
     }
-
+*/
 html{
     font-size: 16px;
     line-height: 1.2;
@@ -38,15 +38,15 @@ html{
     background-color:white;
     cursor:pointer;
     border-radius: 10%;
-    transition-property: all ;
+    transition-property:background-color border transform ;
     transition-duration: 0.7s;
-    transform: rotateZ(0deg);
+ 
 
 }
-.header-button:hover, .header-button:hover:focus{
+.header-button:hover, .header-button:focus{
     background-color: #e5e5d9;
     border: 5px solid #c4a9a9;
-    transform: rotateZ(360deg);
+    transform: rotate(360deg);
 }
 main{
     width:100%;
@@ -69,7 +69,7 @@ main{
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding: 0;
+   
    
 }
 
@@ -94,14 +94,11 @@ main{
    
     position: absolute;    
     transform:translate(50%, -50%);   
-    box-sizing: border-box;    
     top:50%;
     left:2.6%;
     margin: 0 auto;
     padding-top: 7.3vw;
-    vertical-align: center;
-
-
+   
    
 }
 .title-main{
@@ -117,7 +114,6 @@ main{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
-    margin-left:0;
     margin-top:-0.9%;
     padding-right: 3.5%;
     background-color: white; 
@@ -153,7 +149,7 @@ main{
     width: 60vw;
     max-width: 100%;
     flex-basis: 100%;
-    margin:0 auto;
+   
     margin-top: 14.3%;
     margin-left:12.3%;
 
@@ -168,16 +164,13 @@ main{
     min-height: 600px;
     min-width: 250px;
 
-    overflow: hidden;
+ 
    
 
     
  }
 
- /*.biography-block{
-    display: flex;
-    flex-direction: column;
- }*/
+ 
  
  .title-biography{
     font-family: "Butler", serif;
@@ -216,7 +209,7 @@ main{
 }
 .second-line{
     margin-bottom: 14%;
-   /* white-space: nowrap;*/
+   
    line-height: 1.2;
 }
 .blockqoute-biography{
@@ -235,7 +228,7 @@ main{
     position:relative;
     margin-top: 15.1%;
     margin-bottom: 17% ;
-    /*overflow: hidden;*/
+    
 
 }
 
@@ -282,7 +275,7 @@ main{
     padding-left:-10%;
     margin-left:-3.5%;
     margin-right:auto;
-  /*  width:30%;*/
+  
  
 }
 
@@ -324,7 +317,7 @@ main{
     padding-left: 11.75%;
     padding-top: 0.4%;
     margin-bottom:3%;
-   /* width: 99%;*/
+   
    /*background-color: bisque;*/
 
    
@@ -358,7 +351,7 @@ a{
     transform: rotate(270deg);
     list-style-type:none;
     padding-top: 18%;
-    /*transition: all 0.4s;*/
+    
     text-align: center;
     padding-right: 20%;
     
@@ -552,7 +545,7 @@ a{
         transition: border-radius 0.4s, transform 0.4s;
 
     }
-    .biography-image:hover{
+    .biography-image:hover,  .biography-image:focus {
 
         border-radius: 50%;
         transform: rotate(360deg);
@@ -580,7 +573,7 @@ a{
 @media  (max-width:680px){
   
     main{
-        width: 99%;
+        width: 100%;
         margin: 0 auto;
        
     }
@@ -609,10 +602,9 @@ a{
     .hero-block{
         position: relative;;
         width: 100%;
-        max-width: 100%;
-        
+        max-width: 899px;
         margin-bottom: 14%;
-        /*padding-bottom: 10%;*/
+       
        
     }
     .desktop-hidden{
@@ -621,10 +613,7 @@ a{
     .img-div{
        
         width: 100%;
-       
-       height: 71vh;
-       /*max-height: 105vh;*/
-    
+        height: 71vh;
         overflow: hidden;
         margin: 0;
         padding: 0;
@@ -638,11 +627,8 @@ a{
         width: 1065px;
         height: 899px;
         max-width: 1440px;
-        /*height: 50vh;*/
         object-fit: cover;
-        /*height: 104vh;*/
         padding: 0;
-        scale: 100%;
         margin-left: -65%;
         
        
@@ -655,7 +641,6 @@ a{
         height:93vw;/*потом заменить*/
         margin:0;
         background-color: white;
-      
         position: absolute;    
         transform:none; 
         box-sizing: border-box;    
@@ -663,8 +648,8 @@ a{
         left:0;
         padding-top: 0;
         max-width: 100%;
-       max-height: 500px;
-       padding-bottom: 0;
+        max-height: 500px;
+        padding-bottom: 0;
        
     }
     .title-main{
@@ -693,8 +678,6 @@ a{
         max-width: 1440px;
         margin-bottom:0;   
         justify-content: space-around;
-     /*   gap:11%;*/
-       
         flex-wrap: wrap;
         padding-top: 0%;
     }
@@ -707,7 +690,6 @@ a{
         top:-2.7%;
         bottom: 95%;
         right: 4%;
-        
         transform: rotate(0deg);
        
       
@@ -723,37 +705,22 @@ a{
         order:1;
         width: 553px;
         height:27.5vh ;
-        /*max-width: 100%;*/
         position: relative;
-        margin-top: -3.5%;
-        
         overflow: hidden;
-
         margin: 0;
         padding: 0;
      }
-     .biography-image{
-        
+     .biography-image{ 
         width: 100%;
         margin: 0 auto;
-        /*margin-left:0%;
-        margin-bottom:-0%;*/
         max-width: 428px;
-       /* height: auto;*/
-        
         position: absolute;
         top: 79%;
         left: 64%;
         transform:translate(-50%,-50%);
         scale:130%;
-        
-        /*transition: none;*/
-     }
-     /*.biography-image:hover{
-
-        transform: none;
-        border-radius: 100%;
-     }*/
+     } 
+       
      .title-biography{
         
         font-family: "Butler", serif;
@@ -840,10 +807,7 @@ a{
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom:10%;
-   /* margin-left: 2%;*/
-   /* gap:0.1%;*/
-   width: 100%;
-    /*height: calc(width * 1.2);*/
+    width: 100%;
     background-color:transparent;
     overflow-x: auto;
     list-style: none;
@@ -856,15 +820,14 @@ a{
   
     line-height: 0.7;
     padding-left: 2.2%;
-    /*width: 61vw;*/
+   
 
 }
 .image-author-clein{
     width:58vw;
-   height: calc(58vw * 1.68);
+    height: calc(58vw * 1.68);
     padding-left: 0%;
-    /*object-fit: cover;*/
-   /* margin-bottom:2%;*/
+   
 }
 .image-author-red{
     width:58vw; 
@@ -878,14 +841,12 @@ a{
     margin-left:0;
     margin-right:0;
     margin-bottom: -2.5%;
-    /*width:62vw;*/
     order:1;
-    /*width: 100%;*/
     height: calc(58vw * 1.68);
 }
 .image-author-wonder{
     height:36.4vh;
-/*    scale: 90%;*/
+
 
 }
 .design-item:last-child{
@@ -904,7 +865,7 @@ a{
     text-transform: uppercase;
     font-size:1rem;
     margin-bottom: 2%;
-    /*margin-left: 20%;*/
+    
     padding-left: 3%;
    
     
@@ -958,8 +919,7 @@ a{
     margin-left: 0%;
     margin-bottom:3%;
     text-align: right;
-   /* padding-left: 0;*/
-   padding-right: 10%;
+    padding-right: 10%;
 }
 .testimonials-block-main{
     display: grid;
@@ -980,7 +940,6 @@ a{
     margin-right: 0;
     padding-top: 0%;
     width: 100%;
-    /*max-width: 100%;*/
     padding-left: 0;
     height: auto;
     grid-row-start: 2 ;
@@ -993,11 +952,8 @@ a{
     transform: rotate(0deg);
     list-style-type:none;
     padding: 0.1% 4.5% 3%;
-    /*min-width: auto;*/
    max-width: 49%;
-  /*transition: none;*/
     text-align: center;
-    /*padding-right: 20%;*/
     
 }
 .web-item:nth-child(2){
@@ -1005,12 +961,7 @@ a{
    padding-right: 9.8%;
    
 }
-/*
-.web-item:focus{
-    transform: none;
-   
-    
-}*/
+
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
     font-weight: 700;
@@ -1023,7 +974,6 @@ a{
 
 .address-cite{
     display: block;
-  
     text-align:  start;
     color:black;
     text-decoration: none;
@@ -1036,9 +986,7 @@ a{
 
 
 }
-/*.testimonials{
-    margin-bottom: 67%;
-}*/
+
 .testimonials-block{
     display: flex;
     flex-direction: column;
@@ -1076,11 +1024,9 @@ a{
 .img-blockquote{
     width: 100%;
     height: 45vh;
-    /*object-fit: cover;*/
-  position: absolute;
+    position: absolute;
     top: -38%;
     left: 7%;
-   /* transform:translate(-50%,-50%);*/
    scale: 100% 90%;
    padding: 0 0% 0 0%;
    margin: 0 auto;
@@ -1109,7 +1055,6 @@ a{
     display: block;
     font-family: "Butler", serif;
     font-size: 5.75rem;
-   /* margin: 0 auto;*/
     padding-top: 40.5%;
     padding-left: 0%;
     text-align: end;
@@ -1135,11 +1080,10 @@ a{
 }
 .image-navigation{
     
-   /* width:;*/
+  
     order:1;
     margin:0;
-    margin-left:-30%;
-    
+    object-fit: cover;
     padding: 0;
     height: 41vh;
     flex-basis: 40%;
@@ -1148,7 +1092,7 @@ a{
     width:53%;   
    
     margin-top:0%;
-    margin-left: 00%;
+    margin-left: 0%;
     padding:0;
     flex-basis: 60%;
 }
@@ -1166,10 +1110,7 @@ a{
   }
   .list-points-items{
     margin:0;
-    margin-bottom:0;
     padding:0;
-    margin-top: 0%;
-    padding-bottom: 0%;
     height: 3.1vh;
     list-style: none;
     margin-left: 13%;
@@ -1213,9 +1154,7 @@ a{
    font-weight: 400;
    
 }
-/*.footer-list-item:last-child{
-    margin-right: 2%;
-}*/
+
 .footer-list a{
     display: block;
     width: 20vw; 
