@@ -10,12 +10,13 @@
     local("Butler");
     font-weight:300;   
 }
-/*
+
 *{
     margin: 0;
     box-sizing:border-box; 
     scroll-behavior: smooth;  
 }
+/*
 * {
     outline: 1px solid red;
     }
@@ -31,6 +32,22 @@ html{
     display: flex;
     justify-content: center;
 }
+.header-button{
+    border: 5px solid transparent;
+    margin:0.5% auto 0;
+    background-color:white;
+    cursor:pointer;
+    border-radius: 10%;
+    transition-property:background-color border transform ;
+    transition-duration: 0.7s;
+ 
+
+}
+.header-button:hover, .header-button:focus{
+    background-color: #e5e5d9;
+    border: 5px solid #c4a9a9;
+    transform: rotate(360deg);
+}
 main{
     width:100%;
     margin: 0 auto;
@@ -39,9 +56,9 @@ main{
 .hero{
     
     width: 100%;
-    background-color: pink;
-   /* max-width: 100%;*/
-    margin-top: 5%;   
+    /*background-color: pink;*/
+   
+    margin-top: 4.5%;   
 
 }
 
@@ -52,7 +69,7 @@ main{
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding: 0;
+   
    
 }
 
@@ -62,44 +79,49 @@ main{
 .hero-image{
     display: block;
     margin: 0 auto;
-    width: inherit;
-    max-width: 85%;
+    width: 74vw;
+    max-width: 100%;
+    min-height: 490px ;
 
 }
 
 .title-block{
-    width: 52%;
-    height: 56%;
-    /*min-height:165px;*/
+    width: 39vw;
+    height: 24.9vw;
+    min-width:300px;
+    min-height: 120px;
     background-color: white;
-    text-align: center;
+   
     position: absolute;    
     transform:translate(50%, -50%);   
-    box-sizing: border-box;    
-    top:49.5%;
-    left:-1.6%;
+    top:50%;
+    left:2.6%;
     margin: 0 auto;
-    padding-top: 10%;
-
-   /* max-width: 749px;*/
+    padding-top: 7.3vw;
+   
    
 }
 .title-main{
     
     font-family: "Butler", serif; 
     font-size: 5.4375rem;   
-    padding-bottom: 1.125rem; 
+    padding-bottom: 4.5%; 
     background-color: white;
+    margin-bottom:0;
+  
 }
 .subtitle-main{
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
-    text-align: center;
-    margin-left:0;
-    margin-top:-1%;
+    margin-top:-0.9%;
+    padding-right: 3.5%;
     background-color: white; 
 }
+
+/*Biography*/
+
+
 .biography{
     display: flex;   
     position:relative;
@@ -116,36 +138,52 @@ main{
     font-weight: 700;
     font-size: 1.125rem;
     position:absolute;
-    bottom:3%;
-    right: -8.3%;
+    bottom:-1.9%;
+    right: -8.9%;
     transform: rotate(270deg);
+    
    
   
  }
  .div-img-biography{
-    width: 100%;
+    width: 60vw;
     max-width: 100%;
     flex-basis: 100%;
-    margin:0 auto;
+   
+    margin-top: 14.3%;
+    margin-left:12.3%;
+
  }
  
 
  .biography-image{
-    width: 553px;
-    margin-top: 10.2%;
-    margin-left:10.3%;
+    width: 100%;
+   
+    scale: 113.8%;
     max-width: 100%;
+    min-height: 600px;
+    min-width: 250px;
+
+ 
+   
+
     
  }
+
+ 
  
  .title-biography{
     font-family: "Butler", serif;
     font-size: 5.4375rem; 
     font-weight:400;
-    margin-top: 68.55%;
+    margin-top: 22.5vw;
     margin-bottom:10.5%;
     line-height: 1.19;
     margin-left: 1%;
+    padding-left: 7.5%;
+    flex-basis: 50%;
+    
+   
  } 
  
  .paragraph-biography{
@@ -154,6 +192,9 @@ main{
     font-weight: 500;
     line-height: 0.7;
     margin-left: 1%;
+    padding-left: 7.5%;
+    margin-top: -.7%;
+    
   
     
     
@@ -162,25 +203,32 @@ main{
     width:14px;
     height:4px;
     background-color: black;    
-    margin-bottom: 3.5%;
-    margin-left: 1%;
+    margin-left: 9%;
    
    
 }
 .second-line{
-    margin-bottom: 14.5%;
+    margin-bottom: 14%;
+   
+   line-height: 1.2;
 }
 .blockqoute-biography{
     font-family: "Butler", serif;
     font-size: 2rem;
     line-height: 1.21;
-    margin-left: -5%;
+    margin-left: 5%;
+    border:none;
+    padding-top: 5.9%;
+    padding-left: 1.5%;
     
 }
 
+/*Designers*/
 .design{
     position:relative;
+    margin-top: 15.1%;
     margin-bottom: 17% ;
+    
 
 }
 
@@ -201,8 +249,9 @@ main{
     margin-bottom:10%;
     gap:2%;
     width: 100%;
-    background-color:aqua ;
+    /*background-color:aqua ;*/
     overflow-x: auto;
+    overflow-y: hidden;
     list-style: none;
 
  }
@@ -214,25 +263,28 @@ main{
 }
 .image-author-clein{
     width:309px;
-    margin-bottom:2%;
+   margin-bottom:1.5%;
+   margin-left: 2.7%;
 }
 .image-author-red{
     width:312px; 
     margin-bottom:2%;
+    margin-left: 2.7%;
 }
 .huge{
     padding-left:-10%;
-    margin-left:-2.8%;
+    margin-left:-3.5%;
     margin-right:auto;
-    width:609px;
+  
  
 }
+
 .design-item:last-child{
     margin-right: 5.1%;
 }
 .author-wonder{
     text-align:start; 
-    margin-left:30%;
+    margin-left:29%;
     line-height: 0.7;
     padding-top: 0.9%;
 
@@ -243,6 +295,8 @@ main{
     text-transform: uppercase;
     font-size:16px;
     margin-bottom: 1%;
+    margin-left: 3%;
+
     
     
 }
@@ -250,23 +304,31 @@ main{
     font-family: "Roboto",sans-serif;
     font-weight: 400;
     letter-spacing:0.8px;
+    margin-left: 3%;
 
 }
 
-
+/*Testomonials*/
 .title-testimonials {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 1.125rem;
     box-sizing: border-box;
-    padding-left: 12.5%;
+    padding-left: 11.75%;
+    padding-top: 0.4%;
     margin-bottom:3%;
-   /* width: 99%;*/
+   
+   /*background-color: bisque;*/
+
    
 }
 .testimonials-block-main{
     display: grid;
-    grid-template-columns: 12% 1.8fr 1fr;
+    grid-template-columns: 11.7% 1.8fr 1fr;
+    /*background-color: rgb(208, 168, 133);*/
+    width:100%;
+    height: 52.7vw;
+
 }
 
  .web{
@@ -274,9 +336,12 @@ main{
     font-weight: 700;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-right: 0;
-    padding-top: 40%;
+    padding-top: 30%;
+    margin-right: 14%;
+    height: 58vw;
+    
     
 }
 a{
@@ -287,12 +352,19 @@ a{
     list-style-type:none;
     padding-top: 18%;
     
+    text-align: center;
+    padding-right: 20%;
+    
 }
+
+
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 0;
+    text-align: start;
+    
     
    
 
@@ -304,15 +376,17 @@ a{
 
 .address-cite{
     display: block;
-  
+    
     text-align:  start;
     color:black;
     text-decoration: none;
    
 }
 .web-image{
-margin-left:1%;
-width:60.7%;
+    margin-left:0;
+    padding-left: 0;
+    width:63.7%;
+    height: 52.7vw;
 
 }
 .testimonials{
@@ -323,26 +397,35 @@ width:60.7%;
     display: flex;
     flex-direction: column;
     justify-content: start;
-   
-    
+    max-height: 600px;
+       
 
 }
 .testimonials-blockquote{
-    width: 44.78%;
+    width: 50%;
     font-family: "Butler", serif;
     font-size: 2rem;
     line-height: 1.2;
     text-align: center;
-    margin: -0.5% 0 7% 1.5%;
+    margin: 0.1% 0.15% 7% 1.8%;
     padding: 0;
-    letter-spacing:-1.1px;
-
+    letter-spacing:-0.9px;
+    border:none;
+    white-space: nowrap;
+   
+   
+   
 }
 .img-blockquote{
-    width: 46.9%;
+    width: 50%;
+    height: 23.3vw;
 }
+
+/*Navigation*/
 .navigation{
     position: relative;  
+    /*background-color: yellow;*/
+    width:100%;
   
 }
 
@@ -354,31 +437,48 @@ width:60.7%;
     transform: rotate(270deg);
     left:29.2%;
     top: -1%;
+   
 }
 
 .title-points{
     font-family: "Butler", serif;
     font-size: 5.75rem;
-   /* margin-left: 55.3%;*/
-   text-align: end;
+    text-align: center;
+    padding-left: 38%;
+    width: 100%;
 }
 .navigation-main{
+    
     display: flex;
     margin-top: 2.2%;
     margin-left: -.4%;
     overflow: hidden;
-    gap: 2%;
+    gap: 28px;
+    width: inherit;
+    max-width: 100%;
+    
 }
 .image-navigation{
-    width:23.1vw;
+    width:24vw;
+    height: 45vh;
+     flex-basis: 20%;
+     display:block;
+
+}
+.navigation-points{
+    flex-basis: 50%;
+    width: 100%;
 }
 .list-points{
     font-family: "Butler", serif;
     font-size: 2.125rem; 
     list-style: none;
-    margin-left: 43%;
+    margin-left: 3%;
     margin-top: 8%;
-    width:150%;
+   
+    display:block; 
+   
+  
 
     
   }
@@ -388,13 +488,30 @@ width:60.7%;
     padding:0;
     margin-top: 5%;
     padding-bottom: -35.6%;
-    height: 27px;
+    height: 2.8vh;
+    border: 1px solid white;
+    transition: font-weight 0.4s;
+    text-decoration: none;
+    margin-left: 50%;
   }
+  .list-points-items:hover{
+   font-weight:900;
+  
+  }
+  .list-points-items:focus{
+    font-weight:900;
+   
+   }
   .half{
-    margin-left: 23%;
+    padding-left: 5%;
+    margin-left: 18%;
+    flex-basis: 10%;
+    width:100%;
+    height: 100%;
+    align-items: end;
   }
 
-@supports (display: grid){
+/*@supports (display: grid){
  .navigation-main{
     display: grid;
     grid-template-columns: 351px 351px 1fr 161px;
@@ -419,11 +536,41 @@ width:60.7%;
        
          }
 
-}
+}*/
 .footer-adaptive{
     display: none;
 }
-@media  (max-width:428px){
+@media  (min-width: 680px) {
+    .biography-image{
+        transition: border-radius 0.4s, transform 0.4s;
+
+    }
+    .biography-image:hover,  .biography-image:focus {
+
+        border-radius: 50%;
+        transform: rotate(360deg);
+    
+    }
+
+   
+   .web-item{
+    transition: transform 0.4S;
+   }
+   
+    .web-item:hover{
+        transform: rotate(0deg);
+        
+    }
+     .web-item:focus{
+        transform: rotate(0deg);
+       
+        
+    }
+    
+
+    
+}
+@media  (max-width:680px){
   
     main{
         width: 100%;
@@ -455,9 +602,9 @@ width:60.7%;
     .hero-block{
         position: relative;;
         width: 100%;
-        max-width: 100%;
-        
+        max-width: 899px;
         margin-bottom: 14%;
+       
        
     }
     .desktop-hidden{
@@ -466,23 +613,23 @@ width:60.7%;
     .img-div{
        
         width: 100%;
-       /* max-width: 300vw;*/
-       height: 100vh;
-    
+        height: 71vh;
         overflow: hidden;
         margin: 0;
         padding: 0;
+        
+
 
     }
     .hero-image{
         display: block;
-        margin: 0;
-        width: 110%;
+        margin: 0 auto;
+        width: 1065px;
+        height: 899px;
         max-width: 1440px;
-        height: 80vh;
-        
+        object-fit: cover;
         padding: 0;
-        scale: 190%;
+        margin-left: -65%;
         
        
     
@@ -491,10 +638,9 @@ width:60.7%;
     
     .title-block{
         width: 100%;
-        height:95vw;/*потом заменить*/
-        margin:0 auto;
+        height:93vw;/*потом заменить*/
+        margin:0;
         background-color: white;
-      
         position: absolute;    
         transform:none; 
         box-sizing: border-box;    
@@ -502,23 +648,24 @@ width:60.7%;
         left:0;
         padding-top: 0;
         max-width: 100%;
-       padding-top: 0%;
-       padding-bottom: 42vh;
+        max-height: 500px;
+        padding-bottom: 0;
        
     }
     .title-main{
         
         font-family: "Butler", serif; 
         font-size: 4.375rem;   
-        padding-bottom: 0; 
+        padding:34.5% 0 5.8% 3% ; 
         font-weight: 300;
+        margin: 0;
     }
     .subtitle-main{
         font-family: "Roboto",sans-serif;
         font-weight: 500;
         font-size: 1.125rem;
         text-align: center;
-        margin-left:0;
+        margin-left:2%;
         margin-top:-0;
         
     }
@@ -529,12 +676,10 @@ width:60.7%;
         position:relative;
         width: 100%;
         max-width: 1440px;
-            
+        margin-bottom:0;   
         justify-content: space-around;
-        gap:11%;
-       
         flex-wrap: wrap;
-        padding-top: 3%;
+        padding-top: 0%;
     }
     
      .header-biography{
@@ -542,10 +687,9 @@ width:60.7%;
         font-weight: 700;
         font-size: 1.125rem;
         position:absolute;
-        top:0%;
+        top:-2.7%;
         bottom: 95%;
-        right: 3%;
-        
+        right: 4%;
         transform: rotate(0deg);
        
       
@@ -554,53 +698,52 @@ width:60.7%;
         display:flex;
         flex-direction: column;
         position: relative;
-        margin-bottom: 0%;
+        margin-bottom: -3%;
      }
      .div-img-biography{
-        order:1;
-        width: 100%;
-        height:45vh ;
-        max-width: 100%;
-        position: relative;
         
+        order:1;
+        width: 553px;
+        height:27.5vh ;
+        position: relative;
         overflow: hidden;
         margin: 0;
         padding: 0;
      }
-     .biography-image{
+     .biography-image{ 
         width: 100%;
-        margin-top: 0%;
-        margin-left:0%;
-        margin-bottom:-0%;
-        max-width: 100%;
-        height: auto;
+        margin: 0 auto;
+        max-width: 428px;
         position: absolute;
-        top: 90%;
-        left: 80%;
+        top: 79%;
+        left: 64%;
         transform:translate(-50%,-50%);
-        scale: 163%;
-     }
-     
+        scale:130%;
+     } 
+       
      .title-biography{
+        
         font-family: "Butler", serif;
         font-size: 4.875rem; 
         font-weight:400;
-        margin-top: 29%;
+        margin-top: 10.5%;
         margin-bottom:0;
         line-height: 1.19;
         margin-left:4%;
         order:1;
         letter-spacing: 0.003em;
+        padding-left: 0;
      } 
      
      .paragraph-biography{
         font-family: "Roboto",sans-serif;
         font-size: 1.125rem ;
         font-weight: 500;
-        line-height: 0.8;
-        margin-left: 1%;
+        line-height: 0.5;
+        margin-left: 2.5%;
         width:50%;
         padding-left: 3%;
+        margin-top: -1%;
       
      }   
     .mobile-hidden {
@@ -619,17 +762,22 @@ width:60.7%;
     }
     
     .second-line{
-        margin-bottom: 26.5%;
-        line-height: 1.3;
+        margin-bottom: 22%;
+        line-height: 1.12;
        
     }
     .blockqoute-biography{
+        
         font-family: "Butler", serif;
         font-size: 2rem;
         line-height: 1.21;
-        margin: 0;
+        margin: 0 auto;
         text-align: justify;
         border:none;
+        max-width: 428px;
+        padding: 0 5%;
+        letter-spacing: 0.0001rem;
+        word-spacing: 0.01rem;
 
         
     }
@@ -639,7 +787,8 @@ width:60.7%;
 /*Designers*/
 .design{
     position:relative;
-    margin-bottom: 57% ;
+    margin-bottom: 39% ;
+    width: auto;
 
 }
 
@@ -649,36 +798,41 @@ width:60.7%;
     font-size: 1.125rem;
     position: absolute;
    
-    top: 4%;
-    right: 3%;
+    top: -1.5%;
+    right: 8%;
     transform: rotate(0deg);
  }
  .design-list{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-bottom:10%;
-    gap:0.1%;
     width: 100%;
     background-color:transparent;
     overflow-x: auto;
     list-style: none;
-    padding-top: 23%;
-    padding-left: 3.5%;
+    padding-top: 22%;
+    padding-left: 3%;
 
  }
 
  .design-item{
   
     line-height: 0.7;
+    padding-left: 2.2%;
+   
 
 }
 .image-author-clein{
-    width:61.2vw;
-    margin-bottom:2%;
+    width:58vw;
+    height: calc(58vw * 1.68);
+    padding-left: 0%;
+   
 }
 .image-author-red{
-    width:61.99vw; 
+    width:58vw; 
+    height: calc(58vw*1.68);
+    margin-left: -6%;
     margin-bottom:2%;
 }
 .huge{
@@ -686,12 +840,13 @@ width:60.7%;
     padding-left:0;
     margin-left:0;
     margin-right:0;
-    /*width:62vw;*/
+    margin-bottom: -2.5%;
     order:1;
- 
+    height: calc(58vw * 1.68);
 }
 .image-author-wonder{
     height:36.4vh;
+
 
 }
 .design-item:last-child{
@@ -710,7 +865,9 @@ width:60.7%;
     text-transform: uppercase;
     font-size:1rem;
     margin-bottom: 2%;
-    margin-left: 20%;
+    
+    padding-left: 3%;
+   
     
     
     
@@ -724,16 +881,35 @@ width:60.7%;
     padding: 1% 0;
     margin-left: 20%;
     width: 65vw;
+    white-space: nowrap;
+    padding-left: 5%;
+    line-height: 0.2;
 
 }
-.design-item:nth-child(2) .author-title{
+
+.design-item:nth-child(3) .author-title{
     margin-left: 0;
+    padding-left: 11%;
+}
+.design-item:nth-child(3) .author-text{
+    margin-left: 0;
+    padding-left: 11%;
+}
+.design-item:nth-child(1) .author-title{
+    margin-left: 0;
+    padding-left: 25%;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 .design-item:nth-child(2) .author-text{
     margin-left: 0;
+    
 }
 
 /*Testimonials*/
+.testimonials{
+    width:100%;
+}
 .title-testimonials {
     font-family: "Roboto",sans-serif;
     font-weight: 700;
@@ -743,13 +919,14 @@ width:60.7%;
     margin-left: 0%;
     margin-bottom:3%;
     text-align: right;
-   padding-right: 3%;
+    padding-right: 10%;
 }
 .testimonials-block-main{
     display: grid;
     grid-template-columns:  100%;
-    grid-template-rows: 90% 10%;
+    grid-template-rows: 80% 20%;
     max-width: 100%;
+    height: auto;
     justify-content: center;
 }
 
@@ -763,9 +940,8 @@ width:60.7%;
     margin-right: 0;
     padding-top: 0%;
     width: 100%;
-    max-width: 100%;
     padding-left: 0;
-    
+    height: auto;
     grid-row-start: 2 ;
     grid-row-end: 3;
 }
@@ -775,61 +951,70 @@ a{
 .web-item{
     transform: rotate(0deg);
     list-style-type:none;
-    padding: 1.5% 4% 3%;
-    /*min-width: auto;*/
+    padding: 0.1% 4.5% 3%;
    max-width: 49%;
+    text-align: center;
+    
+}
+.web-item:nth-child(2){
+   padding-left: 0%;
+   padding-right: 9.8%;
    
 }
+
 .testimonials-subtitle{ 
     font-family: "Roboto",sans-serif;
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 1%;
-    
+    padding: 0;
    
 
 }
 
 .address-cite{
     display: block;
-  
     text-align:  start;
     color:black;
     text-decoration: none;
    
 }
 .web-image{
-display: none;    
-margin-left:1%;
+    display: none;    
+    margin-left:1%;
+
 
 
 }
-.testimonials{
-    margin-bottom: 67%;
-}
+
 .testimonials-block{
     display: flex;
     flex-direction: column;
     justify-content: center;
    order: 0;
+   max-height: 655px;
 
 }
 .testimonials-blockquote{
-    width: 98%;
+    
+    width: auto;
+    min-width: 180px ;
     font-family: "Butler", serif;
     font-size: 2rem;
-    line-height: 1.5;
+    line-height: 1.2;
     text-align: center;
-    margin: 25% 0 20% 1.5%;
-    padding: 2%git;
+    margin: 20% 0 16% 1.5%;
+    padding: 3% 6%;
     letter-spacing:-1.1px;
     border: none;
+    white-space:normal;
+    
 
 }
 .div-img-blockquote{
     position: relative;
-    width: 100%;
-    height: 42vh;
+    width: 92%;
+    height: 27.5vh;
     overflow: hidden;
      margin: 0;
     padding: 0;
@@ -837,19 +1022,20 @@ margin-left:1%;
 
 }
 .img-blockquote{
-    width: 98%;
-    height: 65vh;
-    /*object-fit: cover;*/
+    width: 100%;
+    height: 45vh;
     position: absolute;
-    top: -28%;
-    left: 5%;
-   /* transform:translate(-50%,-50%);*/
-   scale: 110%;
-   padding: 0 10% 0 4%;
+    top: -38%;
+    left: 7%;
+   scale: 100% 90%;
+   padding: 0 0% 0 0%;
+   margin: 0 auto;
+   min-height: 65px;
 }
 /*navigation*/
 .navigation{
-    position: relative;  
+    position: relative;
+   
   
 }
 
@@ -859,30 +1045,33 @@ margin-left:1%;
     font-size: 1.125rem;
     position: absolute;
     transform: rotate(0deg);
-    left:68%;
-    top: 0%;
+    left:63%;
+    top: 6%;
     right: 3%;
+   
 }
 
 .title-points{
+    display: block;
     font-family: "Butler", serif;
     font-size: 5.75rem;
-    margin: 0 auto;
-    padding-top: 30%;
-    padding-left: 5%;
-    
+    padding-top: 40.5%;
+    padding-left: 0%;
+    text-align: end;
+    padding-right: 2%;
     
    
 }
 .navigation-main{
     display: flex;
+    justify-content: space-between;
     margin-top: 0%;
     margin-left: 0%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     overflow: hidden;
     gap: 0%;
     width:100%;
-    padding-top: 10%;
+    padding-top: 2%;
     
 }
 .first{
@@ -891,41 +1080,40 @@ margin-left:1%;
 }
 .image-navigation{
     
-    width:351px;
+  
     order:1;
     margin:0;
-    margin-left:-30%;
-    
+    object-fit: cover;
     padding: 0;
-    height: 65vh;
+    height: 41vh;
+    flex-basis: 40%;
 }
 .navigation-points{
     width:53%;   
    
-    margin-top:10%;
-    margin-left: 00%;
+    margin-top:0%;
+    margin-left: 0%;
     padding:0;
+    flex-basis: 60%;
 }
 .list-points{
     font-family: "Butler", serif;
     font-size: 2.125rem; 
     padding:0;
     margin-left: 0;
-    margin-top: 18%;
+    margin-top: 3%;
     width:100%;
     order:0;
+
  
     
   }
   .list-points-items{
     margin:0;
-    margin-bottom:0;
     padding:0;
-    margin-top: 5%;
-    padding-bottom: 0%;
-    height: 4.5vh;
+    height: 3.1vh;
     list-style: none;
-    margin-left: 0;
+    margin-left: 13%;
     
   }
   .half{
@@ -938,6 +1126,9 @@ margin-left:1%;
     display: block;
     width: 100%;
     height: 10vh;
+    
+
+
  }
 .footer-line{
     width:100%;
@@ -951,6 +1142,7 @@ margin-left:1%;
     list-style-type: none;
     height: calc(10vh - 2px);
     padding-left: 0;
+    width: 100%;
 }
 .footer-list-item{
    width: 20vw;
@@ -962,13 +1154,14 @@ margin-left:1%;
    font-weight: 400;
    
 }
+
 .footer-list a{
     display: block;
     width: 20vw; 
     height:calc(10vh - 2px);
     
 }
-
+/*
 @supports (display: grid){
  .navigation-main{
     display: grid;
@@ -994,5 +1187,5 @@ margin-left:1%;
        
          }
 
-        }
+        }*/
 }
