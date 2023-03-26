@@ -53,16 +53,16 @@ main{
     margin: 0 auto;
     
 }
-.hero{
+/*.hero{
     
-    width: 100%;
+   /* width: 100%;*/
     /*background-color: pink;*/
    
-    margin-top: 4.5%;   
+   /* margin-top: 4.5%;   
 
-}
+}*/
 
-.hero-block{
+/*.hero-block{
     position: relative;
     width: 83.79%;
     max-width: 100%;
@@ -71,21 +71,21 @@ main{
     text-align: center;
    
    
-}
+}*/
 
 .desktop-hidden{
     display:none;
 }
-.hero-image{
+/*.hero-image{
     display: block;
     margin: 0 auto;
     width: 74vw;
     max-width: 100%;
     min-height: 490px ;
 
-}
+}*/
 
-.title-block{
+/*.title-block{
     width: 39vw;
     height: 24.9vw;
     min-width:300px;
@@ -100,7 +100,7 @@ main{
     padding-top: 7.3vw;
    
    
-}
+}*/
 .title-main{
     
     font-family: "Butler", serif; 
