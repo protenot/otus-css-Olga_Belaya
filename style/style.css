@@ -548,7 +548,7 @@ a{
     .biography-image:hover,  .biography-image:focus {
 
         border-radius: 50%;
-        transform: rotate(360deg);
+        /*transform: rotate(360deg);*/
     
     }
 
