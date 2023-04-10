@@ -424,7 +424,7 @@ a{
 /*Navigation*/
 .navigation{
     position: relative;  
-    /*background-color: yellow;*/
+   /* background-color: yellow;*/
     width:100%;
   
 }
@@ -460,7 +460,7 @@ a{
 }
 .image-navigation{
     width:24vw;
-    height: 45vh;
+    /*height: 45vh;*/
      flex-basis: 20%;
      display:block;
 
@@ -548,7 +548,7 @@ a{
     .biography-image:hover,  .biography-image:focus {
 
         border-radius: 50%;
-        transform: rotate(360deg);
+        /*transform: rotate(360deg);*/
     
     }
 
