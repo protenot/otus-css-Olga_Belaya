@@ -4,10 +4,26 @@ module.exports = {
     mode: "development",
     target: 'web',
     devtool: 'source-map',
-    entry: path.resolve(_dirname,'./src/index.js'),
+    entry: { 
+       main: path.resolve(_dirname,'./src/index.js')
+    },
     output: {
-      filename: 'studio.hash-8.js',
+      filename: '[name].[hash-8].js',
       path: path.resolve(__dirname, './dist'),
-      clean: 'true'
-    }
+      clean: true,
+    },
+    module: {
+        rules: [
+        {
+            test: /\.css$/,
+            use: ["style-loader", "css-loader"],
+
+        },
+        {
+             test: /\.html$/,
+            use: "html-loader",
+        },
+
+    ]
+    },
   };
