@@ -5,7 +5,7 @@ module.exports = {
     target: 'web',
     devtool: 'source-map',
     entry: { 
-       main: path.resolve(_dirname,'./src/index.js')
+       main: path.resolve(__dirname,'./src/index.js')
     },
     output: {
       filename: '[name].[hash-8].js',
