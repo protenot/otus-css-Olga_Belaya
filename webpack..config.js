@@ -23,6 +23,20 @@ module.exports = {
              test: /\.html$/,
             use: "html-loader",
         },
+        {
+            test:/\.(?:ico|gif|png|jpeg|jpj)$/i,
+            type: 'asset/resource',
+            generator:{
+                filename:'images/[name]-[hash:5][ext]',
+            }
+        },
+        {
+            test:/\.(woff(2)?|eot|ttf|otf|svg)$/,
+            type: 'asset/resource',
+            generator:{
+                filename:'fonts/[name]-[hash:5][ext]',
+            }
+        },
 
     ]
     },
