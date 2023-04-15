@@ -1,7 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
-    mode: "development",
+    //mode: "development",
     target: 'web',
     devtool: 'source-map',
     entry: { 
@@ -15,8 +15,8 @@ module.exports = {
     module: {
         rules: [
         {
-            test: /\.(sass|css)$/i,
-            use: ["style-loader", "css-loader", "node-sass" ],
+            test: /\.css$/,
+            use: ["style-loader", "css-loader"],
 
         },
         {
