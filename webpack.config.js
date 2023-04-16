@@ -36,7 +36,7 @@ module.exports = {
             generator:{
                 filename:'fonts/[name]-[hash:5][ext]',
             }
-        },
+        }
 
     ]
     },
@@ -46,5 +46,12 @@ module.exports = {
                 template: path.resolve(__dirname, './src/index.html'), 
                  filename: 'index.html', 
         }),
-        ]
-  }
+        ],
+  
+  devServer: {
+    compress: false,
+    open: true,
+    port: 3000,
+    hot: true,
+    }
+}
