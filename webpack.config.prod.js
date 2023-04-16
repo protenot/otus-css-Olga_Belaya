@@ -16,7 +16,7 @@ module.exports = {
         rules: [
         {
             test: /\.css$/,
-            use: [MiniCss.loader, "css-loader"],
+            use: [miniCss.loader, "css-loader"],
 
         },
         {
@@ -46,6 +46,10 @@ module.exports = {
                 template: path.resolve(__dirname, './src/index.html'), 
                  filename: 'index.html', 
         }),
+        new miniCss({
+			filename: 'style.css',
+		}),
+
         ],
   
     }
