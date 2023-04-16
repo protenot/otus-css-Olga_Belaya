@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development -c webpack.config.js",
-    "build-dev": "webpack --mode development -c webpack.config.js",
-    "build-prod": "webpack -c webpack.config.prod.
-    js",
+    "start": "webpack serve",
+    "build-dev": "webpack -c webpack.config.js",
+    "build-prod": "webpack -c webpack.config.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +24,7 @@
     "css-minimizer-webpack-plugin": "^5.0.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
     "node-sass": "^8.0.0",
     "prettier": "^2.8.7",
     "sass-loader": "^13.2.2",
