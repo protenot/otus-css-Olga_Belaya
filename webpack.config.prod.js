@@ -4,7 +4,7 @@ const miniCss = require('mini-css-extract-plugin');
 
 module.exports = {
     mode: "production",
-    target: 'browserslist',
+    
     
     entry: { 
        main: path.resolve(__dirname,'./src/index.js')
