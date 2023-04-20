@@ -26,14 +26,36 @@ module.exports = {
             use: "html-loader",
         },
         {
-            test:/\.(?:ico|gif|png|jpeg|jpg)$/i,
+            test:/\.(?:ico|gif|png|jpeg|jpg|svg)$/i,
+            use:[
+                {
+                    loader: 'image-webpack-loader',
+                    options:{
+                        mozjpeg:{
+                            progressive:true,
+                        },
+                    optiping:{
+                        enabled:false,
+                    },    
+                    pngquant: {
+                      quality: [0.65, 0.90],
+                      speed: 4      
+                    },
+                    gifsicle:{
+                        interlaced:false,
+                    }
+
+                    }
+                },
+            ],
             type: 'asset/resource',
             generator:{
                 filename:'images/[name]-[hash:5][ext]',
             }
         },
         {
-            test:/\.(woff|woff2|eot|ttf|otf|svg)$/,
+            test:/\.(woff|woff2|eot|ttf|otf)$/,
+            
             type: 'asset/resource',
             generator:{
                 filename:'fonts/[name]-[hash:5][ext]',

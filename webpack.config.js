@@ -25,14 +25,14 @@ module.exports = {
             use: "html-loader",
         },
         {
-            test:/\.(?:ico|gif|png|jpeg|jpg)$/i,
+            test:/\.(?:ico|gif|png|jpeg|jpg|svg)$/i,
             type: 'asset/resource',
             generator:{
                 filename:'images/[name]-[hash:5][ext]',
             }
         },
         {
-            test:/\.(woff|woff2|eot|ttf|otf|svg)$/,
+            test:/\.(woff|woff2|eot|ttf|otf)$/,
             type: 'asset/resource',
             generator:{
                 filename:'fonts/[name]-[hash:5][ext]',
