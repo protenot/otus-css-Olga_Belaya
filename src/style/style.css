@@ -540,6 +540,13 @@ a{
 .footer-adaptive{
     display: none;
 }
+@media  (max-width: 1111px){
+    .title-block{
+
+        padding-top: 1.3vw;  
+    }
+}
+
 @media  (min-width: 767px) {
     .biography-image{
         transition: border-radius 0.4s, transform 0.4s;
