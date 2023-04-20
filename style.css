@@ -3,12 +3,36 @@
     src:url(prod/fonts/Butler_Regular-34f83.woff2),
     local("Butler");
     font-weight:400;   
+    font-display: swap;
 }
 @font-face{
     font-family:"Butler";
     src:url(prod/fonts/Butler_Light-4c107.woff2),
     local("Butler");
     font-weight:300;   
+    font-display: swap;
+}
+
+@font-face{
+    font-family:"Roboto", sans-serif;
+    src:url(prod/fonts/Roboto-Regular-160d7.ttf),
+    local("Roboto");
+    font-weight:400;   
+    font-display: swap;
+}
+@font-face{
+    font-family:"Roboto", sans-serif;
+    src:url(prod/fonts/Roboto-Medium-2699a.ttf),
+    local("Roboto");
+    font-weight:500;   
+    font-display: swap;
+}
+@font-face{
+    font-family:"Roboto", sans-serif;
+    src:url(prod/fonts/Roboto-Bold-35eab.ttf),
+    local("Roboto");
+    font-weight:700;   
+    font-display: swap;
 }
 
 *{
