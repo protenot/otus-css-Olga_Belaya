@@ -15,6 +15,7 @@ module.exports = {
     module: {
         rules: [
         {
+
             test: /\.css$/,
             use: ["style-loader", "css-loader"],
 
@@ -36,7 +37,9 @@ module.exports = {
             generator:{
                 filename:'fonts/[name]-[hash:5][ext]',
             }
+
         }
+
 
     ]
     },
@@ -46,6 +49,7 @@ module.exports = {
                 template: path.resolve(__dirname, './src/index.html'), 
                  filename: 'index.html', 
         }),
+
         ],
   
   devServer: {
@@ -55,3 +59,4 @@ module.exports = {
     hot: true,
     }
 }
+
