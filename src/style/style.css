@@ -3,12 +3,14 @@
     src:url("/src/fonts/Butler_Regular.woff2"),
     local("Butler");
     font-weight:400;   
+    font-display: swap;
 }
 @font-face{
     font-family:"Butler";
     src:url("/src/fonts/Butler_Light.woff2"),
     local("Butler");
     font-weight:300;   
+    font-display: swap;
 }
 
 *{
