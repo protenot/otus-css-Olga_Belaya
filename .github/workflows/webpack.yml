@@ -33,8 +33,8 @@ jobs:
         npm install
         npm run build-prod
         
-        - name: Deploy 
-        uses: JamesIves/github-pages-deploy-action@v4
-        with: 
+    - name: Deploy 
+      uses: JamesIves/github-pages-deploy-action@v4
+      with: 
         folder: prod
 
