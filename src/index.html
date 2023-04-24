@@ -1,184 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!--<link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">-->
   <title>Creative sudio</title>
 </head>
+
 <body>
-<header class="header-name">
-  <button class="header-button .rotate">
-    <img src="image/Button-header.svg" alt="Button">
-  </button>  
-</header>  
- <main>
-<!-- Заголовок -->
-   <section class="hero"> 
-     <div class="hero-block">
-      <div class="img-div">
+  <header class="header-name">
+    <button class="header-button .rotate">
+      <img src="image/Button-header.svg" alt="Button">
+    </button>
+  </header>
+  <main>
+    <!-- Заголовок -->
+    <section class="hero">
+      <div class="hero-block">
+        <div class="img-div">
           <img class="hero-image" src="image/1_header_image.jpg" alt="Beautiful interior">
         </div>
-         <div class="title-block">
-            <h1 class="title-main">Mod Studio</h1>
-            <p class="subtitle-main">Modern Web Studio</p>
-          </div>  
-    </div>
-    
-      
-   </section>
-  <!-- Биография-->
-   
-<section class="biography" id="biography-section">
-  <h2 class="header-biography"> Biography</h2>
-   
-  
-    <div class="div-img-biography"><img class="biography-image" src="image/2_Woman.jpg" alt="Woman in the dunes">
-    </div>
-    <div class="biography-block">
-    <h3 class="title-biography"><span class="desktop-hidden">-</span>Katy<span class="mobile-hidden">a</span><br class="mobile-hidden"> Mills</h3>
-    <p class="paragraph-biography">Art Director</p>
-    <p  class="paragraph-biography second-line">Scenography /<br class="desktop-hidden"> Styling / <br class="desktop-hidden">Creative Photography /<br class="desktop-hidden"> Design</p>
-    <div class= "divider"></div>
-    <blockquote class=" blockqoute-biography">“The more I deal with the work as something that is my own, as something that is personal, the <br class="mobile-hidden"> more successful it is.”</blockquote>
-  </div>
-</section>
+        <div class="title-block">
+          <h1 class="title-main">Mod Studio</h1>
+          <p class="subtitle-main">Modern Web Studio</p>
+        </div>
+      </div>
 
-   <!-- Дизайнеры-->
-   <section class="design" id="designers-section">
-    <h2 class="header-design">Designers</h2>
-    <ul class="design-list">
-    <li class="design-item huge"> 
-     <img class="image-author-wonder" src="image/3_Model_in_dunes.jpg" alt="Young woman in the field">
-     <div class="author-wonder"> 
-        <h3 class="author-title">Jess Wonder</h3>
-        <p class=" author-text"><b>From</b>/Be more flower</p>
-        <p class="author-text"><b>Skills</b>/ Design Strategy / Marketing</p>
-     </div> 
-   </li>
-   <li class="design-item">
-     <img class="image-author-clein" src="image/4_Folder_man.jpg" alt="Man with folder">
-        <h3 class="author-title">Kameron Clein</h3>
-        <p class="author-text"><b>From</b>/ Be more flower</p>
-        <p class="author-text"><b>Skills</b>/ Design Strategy / Marketing</p>
-   </li>
-   <li class="design-item">
-      <img class="image-author-red" src="image/5_Coffee_man.jpg" alt="Man with coffee">
-      <h3 class="author-title">LOUISSE RED</h3>
-      <p class="author-text"><b>From</b>/ Be more flower</p>
-      <p class="author-text"><b>Skills</b>/ Design Strategy / Marketing</p>
-   </li>
-   
-  </ul>
-  </section>
- 
-     <!-- Отзывы-->
-     <section class="testimonials" id="testimonials-section">      
+
+    </section>
+    <!-- Биография-->
+
+    <section class="biography" id="biography-section">
+      <h2 class="header-biography"> Biography</h2>
+
+
+      <div class="div-img-biography">
+        <picture>
+          <source class="biography-image" srcset="image/2.1_Woman.jpg" media="(max-width: 767px)">
+          <img class="biography-image" src="image/2_Woman.jpg" alt="Woman in the dunes">
+        </picture>
+      </div>
+      <div class="biography-block">
+        <h3 class="title-biography"><span class="desktop-hidden">-</span>Katy<span class="mobile-hidden">a</span><br
+            class="mobile-hidden"> Mills</h3>
+        <p class="paragraph-biography">Art Director</p>
+        <p class="paragraph-biography second-line">Scenography /<br class="desktop-hidden"> Styling / <br
+            class="desktop-hidden">Creative Photography /<br class="desktop-hidden"> Design</p>
+        <div class="divider"></div>
+        <blockquote class=" blockqoute-biography">“The more I deal with the work as something that is my own, as
+          something that is personal, the <br class="mobile-hidden"> more successful it is.”</blockquote>
+      </div>
+    </section>
+
+    <!-- Дизайнеры-->
+    <section class="design" id="designers-section">
+      <h2 class="header-design">Designers</h2>
+      <ul class="design-list">
+        <li class="design-item huge">
+          <img class="image-author-wonder" src="image/3_Model_in_dunes.jpg" alt="Young woman in the field">
+          <div class="author-wonder">
+            <h3 class="author-title">Jess Wonder</h3>
+            <p class=" author-text"><b>From</b>/Be more flower</p>
+            <p class="author-text"><b>Skills</b>/ Design Strategy / Marketing</p>
+          </div>
+        </li>
+        <li class="design-item">
+          <img class="image-author-clein" src="image/4_Folder_man.jpg" alt="Man with folder">
+          <h3 class="author-title">Kameron Clein</h3>
+          <p class="author-text"><b>From</b>/ Be more flower</p>
+          <p class="author-text"><b>Skills</b>/ Design Strategy / Marketing</p>
+        </li>
+        <li class="design-item">
+          <img class="image-author-red" src="image/5_Coffee_man.jpg" alt="Man with coffee">
+          <h3 class="author-title">LOUISSE RED</h3>
+          <p class="author-text"><b>From</b>/ Be more flower</p>
+          <p class="author-text"><b>Skills</b>/ Design Strategy / Marketing</p>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- Отзывы-->
+    <section class="testimonials" id="testimonials-section">
       <h2 class="title-testimonials">Testimonials</h2>
       <div class="testimonials-block-main">
-       <ul class="web">
-           <li class="web-item">
-             <h3 class="testimonials-subtitle">Website</h3>
-             <p class="www"><a class="address-cite" href="#">www.whitepapers.com</a></p>
-           </li>
-           <li class="web-item">
-           <h3 class="testimonials-subtitle"> Creativity</h3>
-           <p class="www"><a class="address-cite" href="#">www.whitepapers.com</a></p>
-         </li>
-         <li class="web-item">
-          <h3 class="testimonials-subtitle">Creativity</h3>
-          <p class="www"><a class="address-cite" href="#"> www.whitepapers.com</a></p>
-         </li>
-      </ul>
-    
-      <img class="web-image " src="image/6_Counter.jpg" alt="Counter">
-      <div class="testimonials-block">  
-        <blockquote class="testimonials-blockquote">I just really want<br class="mobile-hidden"> to do good <br> work and work<br class="mobile-hidden"> with some great<br class="mobile-hidden"> people, people<br class="mobile-hidden"> who challеnge <br class="mobile-hidden"> me.
-        </blockquote>   
- 
-       <div class="div-img-blockquote"> 
-        <img class="img-blockquote" src="image/7_Mesh_man.jpg" alt="Men with mesh">
-      </div>
-      </div>
-  </div>
- </section>
+        <ul class="web">
+          <li class="web-item">
+            <h3 class="testimonials-subtitle">Website</h3>
+            <p class="www"><a class="address-cite" href="#">www.whitepapers.com</a></p>
+          </li>
+          <li class="web-item">
+            <h3 class="testimonials-subtitle"> Creativity</h3>
+            <p class="www"><a class="address-cite" href="#">www.whitepapers.com</a></p>
+          </li>
+          <li class="web-item">
+            <h3 class="testimonials-subtitle">Creativity</h3>
+            <p class="www"><a class="address-cite" href="#"> www.whitepapers.com</a></p>
+          </li>
+        </ul>
 
- <!-- Навигация -->    
-  <section class="navigation hundred-percent" id="strong-points-section">
-  <h2 class="points">Strong points</h2>
-  <h3 class="title-points">Strengths</h3> 
- <div class="navigation-main">  
-    
-      <img class="image-navigation" src="image/8_Table_chiar.jpg" alt="Table and chairs">
-   
-      <img class="image-navigation first" src="image/9_Armchiar.jpg" alt="Armchair">
-   <nav class="navigation-points">
-    
-    <ul class="list-points">
-     <li class="list-points-items">
-       <a href="#">Interiors</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Outdoors</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Portraits</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Styling</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Events</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Architecture</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Design</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Celebrations</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Artistic</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Fashion</a>
-     <li class="list-points-items">
-       <a href="#">Nature</a>     
-     </li>
-     <li class="list-points-items">
-       <a href="#">Creativity</a>     
-     </li>
-   </ul>
-  </nav> 
-  <img class="image-navigation half" src="image/9_Armchiar.jpg" alt="Armchair">
-  </div>
- </section> 
- <footer class="footer-adaptive">
-    <div class="footer-line"></div>
-    <nav>
-      <ul class="footer-list">
-        <li class="footer-list-item">
-        <a href="#biography-section" > b </a>
-        </li>
-        <li class="footer-list-item">
-          <a href="#designers-section" > d </a>  
-        </li>
-        <li class="footer-list-item">
-          <a href="#testimonials-section" > t </a>
-        </li>
-        <li class="footer-list-item">
-          <a href="#strong-points-section" > s </a>
-        </li>
-      </ul>
-    </nav>
- </footer>
- </main>
-<script type = "module" src = "./index.js"></script>
+        <img class="web-image " src="image/6_Counter.jpg" loading="lazy" alt="Counter">
+        <div class="testimonials-block">
+          <blockquote class="testimonials-blockquote">I just really want<br class="mobile-hidden"> to do good <br> work
+            and work<br class="mobile-hidden"> with some great<br class="mobile-hidden"> people, people<br
+              class="mobile-hidden"> who challеnge <br class="mobile-hidden"> me.
+          </blockquote>
+
+          <div class="div-img-blockquote">
+            <img class="img-blockquote" src="image/7_Mesh_man.jpg" loading="lazy" alt="Men with mesh">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Навигация -->
+    <section class="navigation hundred-percent" id="strong-points-section">
+      <h2 class="points">Strong points</h2>
+      <h3 class="title-points">Strengths</h3>
+      <div class="navigation-main">
+
+        <img class="image-navigation" src="image/8_Table_chiar.jpg" loading="lazy" alt="Table and chairs">
+
+        <img class="image-navigation first" src="image/9_Armchiar.jpg" loading="lazy" alt="Armchair">
+        <nav class="navigation-points">
+
+          <ul class="list-points">
+            <li class="list-points-items">
+              <a href="#">Interiors</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Outdoors</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Portraits</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Styling</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Events</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Architecture</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Design</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Celebrations</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Artistic</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Fashion</a>
+            <li class="list-points-items">
+              <a href="#">Nature</a>
+            </li>
+            <li class="list-points-items">
+              <a href="#">Creativity</a>
+            </li>
+          </ul>
+        </nav>
+        <img class="image-navigation half" src="image/9_Armchiar.jpg" loading="lazy" alt="Armchair">
+      </div>
+    </section>
+    <footer class="footer-adaptive">
+      <div class="footer-line"></div>
+      <nav>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a href="#biography-section"> b </a>
+          </li>
+          <li class="footer-list-item">
+            <a href="#designers-section"> d </a>
+          </li>
+          <li class="footer-list-item">
+            <a href="#testimonials-section"> t </a>
+          </li>
+          <li class="footer-list-item">
+            <a href="#strong-points-section"> s </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </main>
+  <script type="module" src="./index.js"></script>
 </body>
+
 </html>
