@@ -71,7 +71,8 @@ module.exports = {
                  filename: 'index.html', 
         }),
             new miniCss({
-			filename: '../style.css',
+          
+			filename: 'style.css',
 		}),
 
         ],
