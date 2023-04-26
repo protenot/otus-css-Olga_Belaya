@@ -216,7 +216,7 @@ main {
     font-family: "Roboto", sans-serif;
     font-size: 1.125rem;
     font-weight: 500;
-    line-height: 0.7;
+    line-height: 1;
     margin-left: 1%;
     padding-left: 7.5%;
     margin-top: -.7%;
@@ -969,7 +969,7 @@ a:after{
         width: 65vw;
         white-space: nowrap;
         padding-left: 5%;
-        line-height: 0.2;
+        line-height: 1;
 
     }
 
