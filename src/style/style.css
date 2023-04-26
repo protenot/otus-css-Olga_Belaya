@@ -814,7 +814,9 @@ a {
         top: 92%;
         display: none;
     }
-
+    .first-line{
+        padding-bottom: 7px;
+    }
     .second-line {
         margin-bottom: 22%;
         line-height: 1.12;
@@ -836,7 +838,11 @@ a {
 
 
     }
-
+   .space{
+        
+        content: " ";
+       
+    }
 
 
     /*Designers*/
