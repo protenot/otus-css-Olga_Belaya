@@ -338,10 +338,11 @@ main {
     font-weight: 400;
     letter-spacing: 0.8px;
     margin-left: 3%;
+    padding:0 0 3px 0;
 
 }
 
-/*Testomonials*/
+/*Testimonials*/
 .title-testimonials {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -380,6 +381,15 @@ main {
 
 a {
     color: black;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:after{
+    text-decoration: none;   
 }
 
 .web-item {
@@ -566,6 +576,15 @@ a {
         padding-top: 1.3vw;
     }
 }
+@media (min-width:690px) and (max-width:767){
+
+    .web{
+    flex-direction: column;
+    margin-bottom: 10%;
+      
+    }
+}
+
 
 @media (min-width: 767px) {
     .biography-image {
@@ -814,7 +833,9 @@ a {
         top: 92%;
         display: none;
     }
-
+    .first-line{
+        padding-bottom: 7px;
+    }
     .second-line {
         margin-bottom: 22%;
         line-height: 1.12;
@@ -836,7 +857,11 @@ a {
 
 
     }
-
+   .space{
+        
+        content: " ";
+       
+    }
 
 
     /*Designers*/
@@ -1251,4 +1276,12 @@ a {
 
     }
 
+}
+@media (min-width:690px){
+
+    .web{
+    flex-direction: column;
+  
+      
+    }
 }
