@@ -381,6 +381,15 @@ main {
 a {
     color: black;
 }
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:after{
+    text-decoration: none;   
+}
 
 .web-item {
     transform: rotate(270deg);
